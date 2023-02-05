@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 import LottieView from 'lottie-react-native';
 import Sound from 'react-native-sound';
@@ -23,10 +23,46 @@ const questions: Array<Question> = [
         respuesta: "verdad",
     },
     {
-        pregunta: "¿La inteligencia artificial puede reemplazar completamente a los trabajadores humanos?",
+        pregunta: "¿Es cierto que los atletas deben comer carne roja para tener más proteína en su dieta? ",
         descripcion:
-            "La inteligencia artificial puede automatizar ciertas tareas y mejorar la eficiencia en algunos trabajos, pero es poco probable que la IA reemplace completamente a los trabajadores humanos en un futuro cercano. La IA todavía tiene limitaciones en su capacidad para comprender el contexto y tomar decisiones complejas, y los trabajos que requieren habilidades emocionales y sociales probablemente seguirán siendo desempeñados por humanos.",
+            "La verdad es que los atletas pueden obtener proteína de diferentes fuentes, incluyendo carnes rojas, aves, pescados, productos lácteos y vegetarianos. No es necesario consumir carne roja para tener una dieta equilibrada y adecuada para el deporte.",
         respuesta: "mito",
+    },
+    {
+        pregunta: "¿Es verdad que hacer ejercicio en la mañana antes de desayunar es más efectivo para perder peso? ",
+        descripcion:
+            "No hay una hora específica del día que sea más efectiva para hacer ejercicio o perder peso. Lo más importante es hacer ejercicio regularmente y mantener una dieta equilibrada.",
+        respuesta: "mito",
+    },
+    {
+        pregunta: "¿Es cierto que beber agua fría ayuda a quemar más calorías durante el ejercicio? ",
+        descripcion:
+            "El cuerpo no quema calorías adicionales al beber agua fría o caliente. Lo más importante es mantenerse hidratado durante el ejercicio.",
+        respuesta: "mito",
+    },
+    {
+        pregunta: "¿Es cierto que todas las estrellas de Hollywood tienen un entrenador personal? ",
+        descripcion:
+            "No todas las estrellas de Hollywood tienen un entrenador personal, aunque es común que algunas personas famosas contraten a un entrenador para ayudarles a mantenerse en forma.",
+        respuesta: "mito",
+    },
+    {
+        pregunta: "¿Es cierto que los dinosaurios están extintos desde hace 65 millones de años?",
+        descripcion:
+            " Los dinosaurios están extintos desde hace 65 millones de años, debido a un impacto de un asteroide en la Tierra.",
+        respuesta: "verdad",
+    },
+    {
+        pregunta: "¿Es un mito que los dioses griegos eran inmortales?",
+        descripcion:
+            "Los dioses griegos eran considerados inmortales, pero no eran inmunes a sufrir daños o ser heridos.",
+        respuesta: "verdad",
+    },
+    {
+        pregunta: "¿Es un mito que Cleopatra era egipcia?",
+        descripcion:
+            "Cleopatra era de origen griego, pero nació en Egipto y se convirtió en la última reina de Egipto.",
+        respuesta: "verdad",
     },
 ];
 
@@ -48,12 +84,12 @@ console.log("Respuesta:", selectedQuestion.respuesta)
 const SelectQuestions = () => {
     const [selectedQuestion, setSelectedQuestion] = useState(selectRandomQuestion(questions));
     const [response, setResponse] = useState('')
+    const [timer, setTimer] = useState(5)
+    const timerRef = useRef(null)
     const [disabled, setDisabled] = useState({
         verdad: false,
         mito: false
     })
-
-
     const correctSound = new Sound(require('../sounds/success.mp3'), Sound.MAIN_BUNDLE, (error) => {
         if (error) {
             console.log('Failed to load the sound', error);
@@ -64,17 +100,44 @@ const SelectQuestions = () => {
             console.log('Failed to load the sound', error);
         }
     });
+
+
+    useEffect(() => {
+        timerRef.current = setInterval(() => {
+            setTimer(timer - 1);
+        }, 1000);
+
+        return () => {
+            clearInterval(timerRef.current);
+        };
+    }, [timer]);
+
+    useEffect(() => {
+        if (timer === 0) {
+            incorrectSound.setVolume(0.5)
+            incorrectSound.play();
+            setDisabled({ ...disabled, mito: true, verdad: true })
+            clearInterval(timerRef.current)
+
+        }
+    }, [timer]);
+
+
     const handleVerdad = () => {
         if (selectedQuestion.respuesta === "verdad") {
             correctSound.setVolume(0.5);
             correctSound.play();
             setDisabled({ ...disabled, mito: true })
             setResponse("Correcto!");
+            clearInterval(timerRef.current);
+
 
         } else {
             incorrectSound.play();
             setResponse("Incorrecto!");
             setDisabled({ ...disabled, mito: true })
+            clearInterval(timerRef.current);
+
 
 
         }
@@ -87,11 +150,14 @@ const SelectQuestions = () => {
             correctSound.play();
             setResponse("Correcto!");
             setDisabled({ ...disabled, verdad: true })
+            clearInterval(timerRef.current);
 
         } else {
             incorrectSound.play();
             setResponse("Incorrecto!");
             setDisabled({ ...disabled, verdad: true })
+            clearInterval(timerRef.current);
+
 
 
         }
@@ -102,26 +168,27 @@ const SelectQuestions = () => {
     console.log(response)
 
     return (
-        <View >
+        <View style={{ alignItems: 'center' }}>
+            <Text>{timer}</Text>
             <Text>{selectedQuestion.pregunta} </Text>
 
             <Text>{response}</Text>
 
-            <View style={{ height: 400, width: 400 }}>{
+            <View style={{ height: 300, width: '90%', justifyContent: 'center', alignItems: 'center', backgroundColor: '#fff', margin: 10, borderColor: response === 'Correcto!' ? '#3cb04f' : response === 'Incorrecto!' ? '#f55' : '#000', borderWidth: 10, borderRadius: 10 }}>{
                 response === "Correcto!" ?
                     <>
-                        <View style={{ height: 100, width: 100 }}>
-                            <LottieView source={require('../animations/success.json')} autoPlay loop />
+                        <View style={{ height: 70, width: 70, }}>
+                            <LottieView source={require('../animations/success.json')} autoPlay />
                         </View>
-                        <Text>{selectedQuestion.descripcion}</Text>
+                        <Text style={{ color: '#000', margin: 10 }}>{selectedQuestion.descripcion}</Text>
                     </>
 
                     : response === "Incorrecto!" ?
                         <>
-                            <View style={{ height: 100, width: 100 }}>
+                            <View style={{ height: 70, width: 70, }}>
                                 <LottieView source={require('../animations/error.json')} autoPlay loop />
                             </View>
-                            <Text>{selectedQuestion.descripcion}</Text>
+                            <Text style={{ color: '#000', margin: 10 }}>{selectedQuestion.descripcion}</Text>
                         </>
                         : <Text></Text>
             }</View>
@@ -130,7 +197,7 @@ const SelectQuestions = () => {
             <Button
                 title="Verdad"
                 onPress={handleVerdad}
-                color='green'
+                color='#3cb04f'
                 disabled={disabled.verdad}
             />
 
@@ -144,7 +211,7 @@ const SelectQuestions = () => {
 
             <Button
                 title="Siguiente pregunta"
-                onPress={() => [setSelectedQuestion(selectRandomQuestion(questions)), setResponse(''), setDisabled({ ...disabled, mito: false, verdad: false })]}
+                onPress={() => [setSelectedQuestion(selectRandomQuestion(questions)), setResponse(''), setDisabled({ ...disabled, mito: false, verdad: false }), setTimer(30)]}
             />
         </View>
     );

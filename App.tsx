@@ -26,13 +26,9 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import SelectQuestions from './src/components/SelectQuestions';
 
-type SectionProps = PropsWithChildren<{
-  title: string;
-}>
 
 
-
-function App(): JSX.Element {
+function App() {
   /*   const isDarkMode = useColorScheme() === 'dark';
   
     const backgroundStyle = {
