@@ -120,7 +120,7 @@ const SelectQuestions = () => {
 
         }
     }, [timer, timerRef]);
-
+    //generame una funcion de carga
 
     const handleVerdad = () => {
         if (selectedQuestion.respuesta === "verdad") {
@@ -224,4 +224,3 @@ const SelectQuestions = () => {
 };
 
 export default SelectQuestions;
-
