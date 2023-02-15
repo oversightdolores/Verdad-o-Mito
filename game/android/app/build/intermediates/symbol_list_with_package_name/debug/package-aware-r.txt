@@ -76,6 +76,9 @@ attr activityChooserViewStyle
 attr actualImageResource
 attr actualImageScaleType
 attr actualImageUri
+attr adSize
+attr adSizes
+attr adUnitId
 attr ad_marker_color
 attr ad_marker_width
 attr alertDialogButtonGroupStyle
@@ -437,6 +440,10 @@ attr windowMinWidthMinor
 attr windowNoTitle
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
+bool enable_system_alarm_service_default
+bool enable_system_foreground_service_default
+bool enable_system_job_service_default
+bool workmanager_test_configuration
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -933,6 +940,8 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable admob_close_button_black_circle_white_cross
+drawable admob_close_button_white_circle_black_cross
 drawable autofill_inline_suggestion_chip_background
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -1260,6 +1269,7 @@ id item3
 id item4
 id item_touch_helper_previous_elevation
 id labelled_by
+id layout
 id light
 id line1
 id line3
@@ -1417,6 +1427,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout admob_empty_layout
 layout autofill_inline_suggestion
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
@@ -1525,6 +1536,8 @@ string catalyst_sample_profiler_disable
 string catalyst_sample_profiler_enable
 string catalyst_settings
 string catalyst_settings_title
+string com_auth0_webauth_permission_missing_description
+string com_auth0_webauth_permission_missing_title
 string combobox_description
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
@@ -1622,10 +1635,27 @@ string link_description
 string menu_description
 string menubar_description
 string menuitem_description
+string native_body
+string native_headline
+string native_media_view
+string offline_notification_text
+string offline_notification_title
+string offline_opt_in_confirm
+string offline_opt_in_confirmation
+string offline_opt_in_decline
+string offline_opt_in_message
+string offline_opt_in_title
 string progressbar_description
 string project_id
 string radiogroup_description
 string rn_tab_description
+string s1
+string s2
+string s3
+string s4
+string s5
+string s6
+string s7
 string scrollbar_description
 string search_menu_title
 string spinbutton_description
@@ -1963,6 +1993,7 @@ style Theme_Catalyst_RedBox
 style Theme_FullScreenDialog
 style Theme_FullScreenDialogAnimatedFade
 style Theme_FullScreenDialogAnimatedSlide
+style Theme_IAPTheme
 style Theme_ReactNative_AppCompat_Light
 style Theme_ReactNative_AppCompat_Light_NoActionBar_FullScreen
 style ThemeOverlay_AppCompat
@@ -2062,6 +2093,7 @@ styleable ActionMenuItemView android_minWidth
 styleable ActionMenuView
 styleable ActionMode background backgroundSplit closeItemLayout height subtitleTextStyle titleTextStyle
 styleable ActivityChooserView expandActivityOverflowButtonDrawable initialActivityCount
+styleable AdsAttrs adSize adSizes adUnitId
 styleable AlertDialog android_layout buttonIconDimen buttonPanelSideLayout listItemLayout listLayout multiChoiceItemLayout showTitle singleChoiceItemLayout
 styleable AnimatedStateListDrawableCompat android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable AnimatedStateListDrawableItem android_id android_drawable

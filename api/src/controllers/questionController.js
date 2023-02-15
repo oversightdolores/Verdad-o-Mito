@@ -9,7 +9,7 @@ const {Questions} = require("../db");
      if(!question || !response || !description){
        throw new Error('Debe Completar Los campos')
      }
-  try {
+
 
     const newQuestion = await Questions.create({
       question: question,
@@ -18,15 +18,13 @@ const {Questions} = require("../db");
     });
 
     return newQuestion
-  } catch (error) {
-   throw error
-  }
+  
 };
 
 
 //funcion para que busque una pregunta random en la base de datos Questions 
 const getQuestion = async () => {
-    try {
+    
         // Contar el número total de preguntas con la propiedad "active" en verdadero
         const count = await Questions.count({ where: { active: true } });
     
@@ -40,11 +38,14 @@ const getQuestion = async () => {
         });
     
         // Enviar la pregunta como respuesta
+        if (!question){
+          throw new Error({ message: 'Error al buscar pregunta al azar' });
+          
+        }
        return question
-      } catch (error) {
+      
         // Enviar un mensaje de error en caso de fallar la operación
-        throw { message: 'Error al buscar pregunta al azar' };
-      }
+      
 };
 
 
