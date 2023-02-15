@@ -30,8 +30,13 @@ import FormQuestion from './src/pages/FormQuestion';
 import Game from './src/pages/Game';
 import { Provider } from 'react-redux';
 import { store } from './src/redux/store';
-
-
+import {useAuth0, Auth0Provider} from 'react-native-auth0';
+import { BannerAd, BannerAdSize, TestIds } from 'react-native-google-mobile-ads';
+import Login from './src/pages/Login';
+import Register from './src/pages/Register'
+import Index from './src/components/index.android'
+import Animatable from './src/components/animatable';
+import CoinAnimation from './src/components/Coins';
 
 function App() {
   /*   const isDarkMode = useColorScheme() === 'dark';
@@ -39,38 +44,29 @@ function App() {
     const backgroundStyle = {
       backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
     }; */
+    const adUnitId = __DEV__ ? TestIds.BANNER : 'ca-app-pub-1460570234418559/2303532424';
 
   return (
-    
+    <Auth0Provider domain={"verdadomito.us.auth0.com"} clientId={"ugf7ZQ64ZPWRDlZl1U7L2zdXlb36Jb1i"}>
     <Provider store={store}>
-      <SafeAreaView style={{ flex: 1, justifyContent: 'center' }}>
+      <SafeAreaView style={{ flex: 1,  backgroundColor: '#ffbe0b',justifyContent: 'center'}}>
 
+       
+        
         <Game />
-
-
+        <BannerAd
+      unitId={adUnitId}
+      size={BannerAdSize.FULL_BANNER}
+      requestOptions={{
+        requestNonPersonalizedAdsOnly: true,
+      }}
+    />
 
       </SafeAreaView>
     </Provider>
+    </Auth0Provider>
   )
 }
 
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
 
 export default App;

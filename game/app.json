@@ -1,4 +1,8 @@
 {
   "name": "verdadomito",
-  "displayName": "verdadomito"
+  "displayName": "verdadomito",
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-1460570234418559~9710700419",
+    "ios_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx"
+  }
 }

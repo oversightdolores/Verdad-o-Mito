@@ -3,11 +3,18 @@ const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const routes = require('./routes/index.js');
+const { auth } = require('express-oauth2-jwt-bearer');
 
 require('./db.js');
-
 const server = express();
 const cors = require('cors')
+
+/* server.use(
+    auth({
+      issuerBaseURL: 'https://verdadomito.us.auth0.com',
+      audience: 'https://verdadomito.us.auth0.com/api/v2/'
+    })
+); */
 
 server.name = 'API';
 server.use(cors())

@@ -99,6 +99,7 @@ android {
         applicationId "com.verdadomito"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
+        manifestPlaceholders = [auth0Domain: "verdadomito.us.auth0.com", auth0Scheme: "ugf7ZQ64ZPWRDlZl1U7L2zdXlb36Jb1i"]
         versionCode 1
         versionName "1.0"
     }
@@ -152,6 +153,7 @@ android {
 dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")
+    implementation 'com.auth0.android:auth0:2.+'
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.0.0")
     apply plugin: 'com.google.gms.google-services'
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}")

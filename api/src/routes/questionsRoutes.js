@@ -10,7 +10,7 @@ router.post("/", async (req, res) => {
         const newQuestion = await createQuestion(quest)
         res.status(200).send(newQuestion)
     } catch (error) {
-    res.status(400).send(error.message)
+    res.status(400).send(error)
     }
 })
 

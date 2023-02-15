@@ -31,12 +31,16 @@ import com.reactnativecommunity.picker.RNCPickerPackage;
 import com.airbnb.android.react.lottie.LottiePackage;
 // react-native-agora
 import io.agora.rtc.ng.react.AgoraRtcNgPackage;
+// react-native-auth0
+import com.auth0.react.A0Auth0Package;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.RNGestureHandlerPackage;
-// react-native-reanimated
-import com.swmansion.reanimated.ReanimatedPackage;
+// react-native-google-mobile-ads
+import io.invertase.googlemobileads.ReactNativeGoogleMobileAdsPackage;
 // react-native-sound
 import com.zmxv.RNSound.RNSoundPackage;
+// react-native-vector-icons
+import com.oblador.vectoricons.VectorIconsPackage;
 // react-native-video
 import com.brentvatne.react.ReactVideoPackage;
 
@@ -94,9 +98,11 @@ public class PackageList {
       new RNCPickerPackage(),
       new LottiePackage(),
       new AgoraRtcNgPackage(),
+      new A0Auth0Package(),
       new RNGestureHandlerPackage(),
-      new ReanimatedPackage(),
+      new ReactNativeGoogleMobileAdsPackage(),
       new RNSoundPackage(),
+      new VectorIconsPackage(),
       new ReactVideoPackage()
     ));
   }
