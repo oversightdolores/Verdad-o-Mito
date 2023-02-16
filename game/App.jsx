@@ -40,6 +40,7 @@ import CoinAnimation from './src/components/Coins';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './src/pages/HomeScreen';
+import Profile from './src/pages/Profile';
 
 function App() {
   /*   const isDarkMode = useColorScheme() === 'dark';
@@ -53,11 +54,13 @@ function App() {
     <Auth0Provider domain={"verdadomito.us.auth0.com"} clientId={"ugf7ZQ64ZPWRDlZl1U7L2zdXlb36Jb1i"}>
       <NavigationContainer>
     <Provider store={store}>
+      <StatusBar backgroundColor="white" barStyle="dark-content" />
       <SafeAreaView style={{ flex: 1, }}>
 
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Game" component={Game} />
+        <Stack.Screen name="Home" component={HomeScreen}  options={{ headerShown: false }} />
+        <Stack.Screen name="Game" component={Game}  options={{ headerShown: false }}  />
+        <Stack.Screen name="Profile" component={Profile}  options={{ headerShown: false }} />
       </Stack.Navigator>
         
       <View style={{alignItems: 'center'}} > 

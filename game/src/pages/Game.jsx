@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { View, Text, Button, StyleSheet, TouchableOpacity,Modal } from 'react-native';
+import { View, Text, Button, StyleSheet, TouchableOpacity,Modal, Image } from 'react-native';
 import LottieView from 'lottie-react-native';
 import Sound from 'react-native-sound';
 import {useDispatch, useSelector} from 'react-redux';
@@ -7,6 +7,7 @@ import {getQuestion} from '../redux/action';
 import ShakeButton from '../components/ShakeButton';
 import * as Animatable from 'react-native-animatable';
 import { RewardedAd, RewardedAdEventType, TestIds  } from 'react-native-google-mobile-ads';
+import {useNavigation} from '@react-navigation/native';
 
 const adUnitId = __DEV__ ? TestIds.REWARDED : 'ca-app-pub-1460570234418559/4817466382';
 
@@ -19,7 +20,8 @@ const rewarded = RewardedAd.createForAdRequest(adUnitId, {
 
 //ca-app-pub-1460570234418559/4817466382
 
-const Game = ({navigation}) => {
+const Game = () => {
+  const navigation = useNavigation()
     const dispatch = useDispatch()
     const question = useSelector(state => state.question)
     const [selectedQuestion, setSelectedQuestion] = useState();
@@ -170,7 +172,7 @@ const Game = ({navigation}) => {
     }
 
     return (
-        <View style={{flex: 1}}>
+        <View style={styles.container}>
             <Text style={{ color: '#000', margin: 10 }}>correctas: {points}/5</Text>
             <Text style={{ color: '#000', margin: 10 }}>{timer}</Text>
             <Text style={{ color: '#000', margin: 10 }}>{question.question} </Text>
@@ -247,6 +249,11 @@ const Game = ({navigation}) => {
                
             }
 
+<TouchableOpacity onPress={() => navigation.dispatch(navigation.navigate('Profile'))} >
+   <Animatable.View animation={'zoomIn'} style={[styles.btn_mito]}>
+   <Text style={{fontWeight: '700', fontSize: 15}}> Profile</Text>
+   </Animatable.View>
+</TouchableOpacity>
 
 <View>
      
@@ -258,13 +265,16 @@ const Game = ({navigation}) => {
         visible={showModal} >
         <View style={styles.modalContent}>
             <View style={styles.modal_body}>
-          <Text style={{color: '#000',}}>Incorrect answer. Try again?</Text>
-          <TouchableOpacity style={styles.btn_publi} onPress={() => [setResponse('Incorrecto!'), setShowModal(false)]}>
+          <Text style={{color: '#000',}}>Incorrecto! quieres otra oportunidad?</Text>
+          <Image style={{height: 100, width:100, marginTop: 20}} source={{uri:'https://cdn-icons-png.flaticon.com/512/4213/4213958.png'}} />
+          <View style={styles.cont_button}>
+          <TouchableOpacity style={styles.btn_nopubli} onPress={() => [setResponse('Incorrecto!'), setShowModal(false)]}>
             <Text style={{color: '#000',}} >No</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.btn_publi} onPress={() => [handleShowAd(), nextQuestions(), setShowModal(false)]}>
-            <Text style={{color: '#000',}} >Yes</Text>
+            <Text style={{color: '#000',}} >Ver</Text>
           </TouchableOpacity>
+          </View>
           </View>
         </View>
       </Modal>
@@ -282,8 +292,13 @@ export default Game;
 
 
 const styles = StyleSheet.create({
+  container: {
+    flex:1,
+    alignItems: 'center'
+  },
     sigiente: {
       backgroundColor: '#3a86ff',
+      width: 200,
       borderRadius: 10,
       padding: 16,
       margin: 10,
@@ -294,6 +309,7 @@ const styles = StyleSheet.create({
     correcto: {
       backgroundColor: 'green',
       borderRadius: 10,
+      width:200,
       padding: 16,
       margin: 10,
       flexDirection: 'row',
@@ -307,19 +323,37 @@ const styles = StyleSheet.create({
       },
       modal_body: {
         padding:10,
-        width: 200,
-        height:200,
+        width: 300,
+        height:300,
         backgroundColor: '#FFFF',
         borderRadius: 8,
         justifyContent: 'center',
         alignItems: 'center'
+        
       }, 
+      cont_button: {
+       
+        flexDirection: 'row',
+        justifyContent: 'center',
+        top: 50
+      },
       btn_publi : {
-        backgroundColor: '#3a86ff', 
+        backgroundColor: '#3cb04f', 
         borderRadius: 10,
-      padding: 16,
-      margin: 10,
-      flexDirection: 'row',
+        width: 60,
+        height:40,
+      padding: 5,
+      margin: 10,    
+      alignItems: 'center',
+      justifyContent: 'center'
+      },
+      btn_nopubli : {
+        backgroundColor: 'tomato', 
+        borderRadius: 10,
+        width: 60,
+        height:40,
+      padding: 5,
+      margin: 10, 
       alignItems: 'center',
       justifyContent: 'center'
       },
@@ -328,6 +362,7 @@ const styles = StyleSheet.create({
       borderRadius: 10,
       padding: 16,
       margin: 10,
+      width: 200,
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'center'
@@ -336,6 +371,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'tomato',
       borderRadius: 10,
       padding: 16,
+      width: 200,
       margin: 10,
       flexDirection: 'row',
       alignItems: 'center',

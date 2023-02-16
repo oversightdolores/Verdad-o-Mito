@@ -34,6 +34,7 @@ const styles = StyleSheet.create({
   incorrecto: {
     backgroundColor: 'tomato',
     borderRadius: 10,
+    width:200,
     padding: 16,
     margin: 10,
     flexDirection: 'row',
@@ -43,6 +44,7 @@ const styles = StyleSheet.create({
   correcto: {
     backgroundColor: 'green',
     borderRadius: 10,
+    width: 200,
     padding: 16,
     margin: 10,
     flexDirection: 'row',
