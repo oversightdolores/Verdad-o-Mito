@@ -1,15 +1,15 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { View, Text, Button, StyleSheet, TouchableOpacity,Modal, Image } from 'react-native';
+import { View, Text, Button, StyleSheet, TouchableOpacity,Modal, Image, Alert } from 'react-native';
 import LottieView from 'lottie-react-native';
 import Sound from 'react-native-sound';
 import {useDispatch, useSelector} from 'react-redux';
 import {getQuestion} from '../redux/action';
 import ShakeButton from '../components/ShakeButton';
 import * as Animatable from 'react-native-animatable';
-import { RewardedAd, RewardedAdEventType, TestIds  } from 'react-native-google-mobile-ads';
+import { AdsConsent, RewardedAd, RewardedAdEventType, TestIds  } from 'react-native-google-mobile-ads';
 import {useNavigation} from '@react-navigation/native';
 
-const adUnitId = __DEV__ ? TestIds.REWARDED : 'ca-app-pub-1460570234418559/4817466382';
+const adUnitId = 'ca-app-pub-1460570234418559/8882997469';
 
 
 const rewarded = RewardedAd.createForAdRequest(adUnitId, {
@@ -29,6 +29,7 @@ const Game = () => {
     const [timer, setTimer] = useState(20)
     const [points, setPoints] = useState(0)
     const timerRef = useRef(timer)
+    const [recom, setRecom]= useState(false)
     const [disabled, setDisabled] = useState({
         verdad: false,
         mito: false
@@ -52,6 +53,7 @@ const Game = () => {
       console.log('User earned reward of ', reward);
       // Cargar un nuevo anuncio recompensado después de que el usuario haya aceptado la recompensa
       ad.load();
+      setRecom(true)
     });
 
     setRewardedAd(ad);
@@ -82,7 +84,7 @@ const Game = () => {
   };
 
   
-    console.log(question)
+    
     const correctSound = new Sound(require('../sounds/success.mp3'), Sound.MAIN_BUNDLE, (error) => {
         if (error) {
             console.log('Failed to load the sound', error);
@@ -165,10 +167,16 @@ const Game = () => {
  
 
     const nextQuestions = () => {
-        dispatch(getQuestion())
-            setResponse(''),
-            setDisabled({ ...disabled, mito: false, verdad: false }),
-            setTimer(20)
+    
+      
+        navigation.navigate('Search')
+        setResponse(''),
+        setDisabled({ ...disabled, mito: false, verdad: false }),
+        setTimer(20)
+     
+        
+      
+     
     }
 
     return (
@@ -239,7 +247,7 @@ const Game = () => {
                 
                 :
                 response === 'Correcto!' ?
-                <TouchableOpacity onPress={() => nextQuestions()} >
+                <TouchableOpacity onPress={() => navigation.navigate('Search')} >
                 <Animatable.View animation={'zoomIn'} style={[styles.sigiente]}>
                 <Text style={{fontWeight: '700', fontSize: 15}}> Siguiente pregunta</Text>
                 </Animatable.View>

@@ -41,6 +41,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './src/pages/HomeScreen';
 import Profile from './src/pages/Profile';
+import SearchQuestions from './src/pages/SearchQuestions';
 
 function App() {
   /*   const isDarkMode = useColorScheme() === 'dark';
@@ -48,7 +49,7 @@ function App() {
     const backgroundStyle = {
       backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
     }; */
-    const adUnitId = __DEV__ ? TestIds.BANNER : 'ca-app-pub-1460570234418559/2303532424';
+    const adUnitId =  'ca-app-pub-1460570234418559/2902583485';
     const Stack = createNativeStackNavigator();
   return (
     <Auth0Provider domain={"verdadomito.us.auth0.com"} clientId={"ugf7ZQ64ZPWRDlZl1U7L2zdXlb36Jb1i"}>
@@ -61,6 +62,7 @@ function App() {
         <Stack.Screen name="Home" component={HomeScreen}  options={{ headerShown: false }} />
         <Stack.Screen name="Game" component={Game}  options={{ headerShown: false }}  />
         <Stack.Screen name="Profile" component={Profile}  options={{ headerShown: false }} />
+        <Stack.Screen name="Search" component={SearchQuestions}  options={{ headerShown: false }} />
       </Stack.Navigator>
         
       <View style={{alignItems: 'center'}} > 
