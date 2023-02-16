@@ -37,6 +37,9 @@ import Register from './src/pages/Register'
 import Index from './src/components/index.android'
 import Animatable from './src/components/animatable';
 import CoinAnimation from './src/components/Coins';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import HomeScreen from './src/pages/HomeScreen';
 
 function App() {
   /*   const isDarkMode = useColorScheme() === 'dark';
@@ -45,15 +48,19 @@ function App() {
       backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
     }; */
     const adUnitId = __DEV__ ? TestIds.BANNER : 'ca-app-pub-1460570234418559/2303532424';
-
+    const Stack = createNativeStackNavigator();
   return (
     <Auth0Provider domain={"verdadomito.us.auth0.com"} clientId={"ugf7ZQ64ZPWRDlZl1U7L2zdXlb36Jb1i"}>
+      <NavigationContainer>
     <Provider store={store}>
       <SafeAreaView style={{ flex: 1,  backgroundColor: '#ffbe0b',justifyContent: 'center'}}>
 
-       
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Game" component={Game} />
+      </Stack.Navigator>
         
-        <Game />
+       
         <BannerAd
       unitId={adUnitId}
       size={BannerAdSize.FULL_BANNER}
@@ -64,6 +71,7 @@ function App() {
 
       </SafeAreaView>
     </Provider>
+    </NavigationContainer>
     </Auth0Provider>
   )
 }

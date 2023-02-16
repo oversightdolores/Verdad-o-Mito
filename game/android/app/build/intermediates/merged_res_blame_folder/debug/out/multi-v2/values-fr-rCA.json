@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.verdadomito.app-mergeDebugResources-40:/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "com.verdadomito.app-mergeDebugResources-45:/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
                     "source": "/home/nicolas/.gradle/caches/transforms-3/48c0254e85622aff08e26c4f5886e53e/transformed/core-1.7.0/res/values-fr-rCA/values-fr-rCA.xml",

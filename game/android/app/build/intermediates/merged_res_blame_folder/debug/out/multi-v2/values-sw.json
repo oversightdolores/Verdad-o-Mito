@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.verdadomito.app-mergeDebugResources-40:/values-sw/values-sw.xml",
+            "outputFile": "com.verdadomito.app-mergeDebugResources-45:/values-sw/values-sw.xml",
             "map": [
                 {
                     "source": "/home/nicolas/.gradle/caches/transforms-3/6f7e9fd65d5e9fbca83fb74688dcf0d9/transformed/jetified-play-services-basement-18.1.0/res/values-sw/values.xml",

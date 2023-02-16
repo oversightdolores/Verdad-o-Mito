@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.verdadomito.app-mergeDebugResources-40:/values-el/values-el.xml",
+            "outputFile": "com.verdadomito.app-mergeDebugResources-45:/values-el/values-el.xml",
             "map": [
                 {
                     "source": "/home/nicolas/.gradle/caches/transforms-3/64ab6d51e1e2e945e8a1774e1de33b62/transformed/browser-1.4.0/res/values-el/values-el.xml",

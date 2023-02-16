@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.verdadomito.app-mergeDebugResources-40:/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "com.verdadomito.app-mergeDebugResources-45:/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
                     "source": "/home/nicolas/.gradle/caches/transforms-3/369c92f887c8acb0b4c0808d11c85ac9/transformed/jetified-play-services-base-18.0.1/res/values-zh-rTW/values.xml",

@@ -1,33 +1,35 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:1:1-37:12
-INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:1:1-37:12
-INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:1:1-37:12
-INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:1:1-37:12
-MERGED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:1:1-37:12
+ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:1:1-37:12
+MERGED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:1:1-37:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /home/nicolas/.gradle/caches/transforms-3/739f3845c7611b37435dc6e05d169355/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/nicolas/.gradle/caches/transforms-3/7b175d37f53f7293ca2772d5241097b3/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper:0.125.0] /home/nicolas/.gradle/caches/transforms-3/609bc121fdf888108ff77fdf15aa4fee/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:8:1-18:12
-MERGED from [:react-native-firebase_auth] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
-MERGED from [:react-native-firebase_database] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
-MERGED from [:react-native-firebase_firestore] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/firestore/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-45:12
-MERGED from [:react-native-firebase_storage] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
-MERGED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-32:12
-MERGED from [:react-native-google-signin_google-signin] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-picker_picker] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-picker/picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:lottie-react-native] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/lottie-react-native/src/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-agora] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
-MERGED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:4:1-56:12
-MERGED from [:react-native-gesture-handler] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-28:12
-MERGED from [:react-native-vector-icons] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-video] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-video/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_auth] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-firebase_database] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-firebase_firestore] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/firestore/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-45:12
+MERGED from [:react-native-firebase_storage] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-32:12
+MERGED from [:react-native-google-signin_google-signin] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-picker_picker] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-picker/picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:lottie-react-native] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/lottie-react-native/src/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-agora] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:4:1-56:12
+MERGED from [:react-native-gesture-handler] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-28:12
+MERGED from [:react-native-safe-area-context] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-video] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-video/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-android:0.71.2] /home/nicolas/.gradle/caches/transforms-3/8996c8cdc732db0a1ab75faabcf8af34/transformed/jetified-react-android-0.71.2-debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.auth0.android:auth0:2.8.1] /home/nicolas/.gradle/caches/transforms-3/0fb80e6acde1ff8246fa798d7c8f10d8/transformed/jetified-auth0-2.8.1/AndroidManifest.xml:4:1-50:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/nicolas/.gradle/caches/transforms-3/4ce5a85c66974f46ee0b4e753d499ba3/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.react:hermes-android:0.71.2] /home/nicolas/.gradle/caches/transforms-3/15cb33afcfddaa1c37181f3bd274f9f7/transformed/jetified-hermes-android-0.71.2-debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-sound] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-sound/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-10:12
+MERGED from [:react-native-sound] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-sound/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-10:12
 MERGED from [com.facebook.fbjni:fbjni:0.3.0] /home/nicolas/.gradle/caches/transforms-3/0c2f3856c241e022943978e6bedd5866/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:flipper:2.6.0] /home/nicolas/.gradle/caches/transforms-3/ebd3d3c261d227cda3648627fa354ed9/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:stetho:2.6.0] /home/nicolas/.gradle/caches/transforms-3/bf5ae61679d3ce553294c1460e594ff2/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:2:1-9:12
@@ -60,6 +62,7 @@ MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.1] /home/nicolas/.gr
 MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /home/nicolas/.gradle/caches/transforms-3/596db86690c493a046da35fb362906b7/transformed/jetified-exoplayer-common-2.18.1/AndroidManifest.xml:17:1-26:12
 MERGED from [io.grpc:grpc-android:1.50.2] /home/nicolas/.gradle/caches/transforms-3/32e02ec94a536fc747378c8b12fe23dc/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:2:1-11:12
 MERGED from [com.airbnb.android:lottie:5.1.1] /home/nicolas/.gradle/caches/transforms-3/cb1a38b036f7438fb1593974c22f378a/transformed/jetified-lottie-5.1.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.1.0] /home/nicolas/.gradle/caches/transforms-3/1276e3297a489a3c70222886eb04d345/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] /home/nicolas/.gradle/caches/transforms-3/3af14efacd96d9f6cc965317305dbd81/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-ads:21.4.0] /home/nicolas/.gradle/caches/transforms-3/51918f04a179ffefbca56cc3ecbcfdb4/transformed/jetified-play-services-ads-21.4.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:17:1-77:12
@@ -96,6 +99,7 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/ni
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /home/nicolas/.gradle/caches/transforms-3/df8d185170376b4a49e209ed28033045/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /home/nicolas/.gradle/caches/transforms-3/b29a7353810035e675f369707f740303/transformed/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/nicolas/.gradle/caches/transforms-3/6f7e9fd65d5e9fbca83fb74688dcf0d9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/nicolas/.gradle/caches/transforms-3/9dc1d083a7cc801971a984f29ded930e/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.6] /home/nicolas/.gradle/caches/transforms-3/b1d722ea47f7bf8628005e822a30175a/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.4.0] /home/nicolas/.gradle/caches/transforms-3/cb0c3435f27d31270beaedc966cb14bf/transformed/jetified-activity-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/nicolas/.gradle/caches/transforms-3/55ecb928316cd8248a7609474ee12e05/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -111,6 +115,7 @@ MERGED from [androidx.core:core-ktx:1.6.0] /home/nicolas/.gradle/caches/transfor
 MERGED from [androidx.browser:browser:1.4.0] /home/nicolas/.gradle/caches/transforms-3/64ab6d51e1e2e945e8a1774e1de33b62/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/nicolas/.gradle/caches/transforms-3/4751461eef664371663a65be28d56d69/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nicolas/.gradle/caches/transforms-3/e4ad3bf5a1b8f5dc886400630c5dcdfe/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/nicolas/.gradle/caches/transforms-3/0b8aa69c034008bbe78142898cfa990a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite:2.1.0] /home/nicolas/.gradle/caches/transforms-3/eac93a68dd1d8dae37bfb010949b4e4e/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/nicolas/.gradle/caches/transforms-3/aeb03f7637e579c0f979cf96ce2573e1/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/nicolas/.gradle/caches/transforms-3/de4e9a1e7e61d20da8dc9dcf54d72f0e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -119,6 +124,7 @@ MERGED from [androidx.loader:loader:1.0.0] /home/nicolas/.gradle/caches/transfor
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/nicolas/.gradle/caches/transforms-3/a333872e67df9311f448a81c52eeb03c/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/nicolas/.gradle/caches/transforms-3/e1cb8ab5923113afe935174fe1a40a27/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] /home/nicolas/.gradle/caches/transforms-3/2228dfa3a585dbb4c9d597cbb4cb76fd/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/nicolas/.gradle/caches/transforms-3/6fdcf9859658010bc70200a2218fe4e6/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media:media:1.4.3] /home/nicolas/.gradle/caches/transforms-3/6300dda2c64cb3b0a11930398510772d/transformed/media-1.4.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.7.0] /home/nicolas/.gradle/caches/transforms-3/48c0254e85622aff08e26c4f5886e53e/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nicolas/.gradle/caches/transforms-3/b83cfde3406739f011a748af07b35c15/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -126,6 +132,7 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/nico
 MERGED from [androidx.savedstate:savedstate:1.1.0] /home/nicolas/.gradle/caches/transforms-3/80851f51d6acfbe9bc3da8c5b2b34828/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/nicolas/.gradle/caches/transforms-3/443fdd0e58916c23be819e44eca79c74/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nicolas/.gradle/caches/transforms-3/a42d8887ef2ae6658d7615ec2a70bece/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/nicolas/.gradle/caches/transforms-3/412d4d3a29633ded4646ed94ee11dda6/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/nicolas/.gradle/caches/transforms-3/eaf3a2328d6a5aa55c61234a2481a17b/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/nicolas/.gradle/caches/transforms-3/20eb75bd56fd1c3a7ecfb3cc36bceb92/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/nicolas/.gradle/caches/transforms-3/e2a9b1d4226cdf279d2eadbd5db195d7/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
@@ -143,45 +150,45 @@ MERGED from [io.agora.rtc:iris-rtc:4.1.0-rc.2] /home/nicolas/.gradle/caches/tran
 MERGED from [com.facebook.fresco:fbcore:2.6.0] /home/nicolas/.gradle/caches/transforms-3/6591dc77dbfc957fcbfeb1a88aea1e8e/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/nicolas/.gradle/caches/transforms-3/d5cf6eaf3bb4667eb1a3f7086da26663/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/nicolas/.gradle/caches/transforms-3/ccaf8d2dbe09382a91d6aec7ec2e6941/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
-INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:2:1-13:12
-INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:2:1-13:12
-INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:2:1-13:12
 	package
-		INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:1:1-37:12
-		INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:1:1-37:12
+		INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:1:1-37:12
-		INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:1:1-37:12
+		INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:3:5-51
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:1:1-37:12
-		INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:1:1-37:12
+		INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:3:5-67
+ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:3:5-67
 MERGED from [com.facebook.flipper:flipper:0.125.0] /home/nicolas/.gradle/caches/transforms-3/609bc121fdf888108ff77fdf15aa4fee/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
 MERGED from [com.facebook.flipper:flipper:0.125.0] /home/nicolas/.gradle/caches/transforms-3/609bc121fdf888108ff77fdf15aa4fee/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
-MERGED from [:react-native-firebase_auth] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_auth] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_database] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_database] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_storage] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_storage] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:lottie-react-native] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/lottie-react-native/src/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:lottie-react-native] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/lottie-react-native/src/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-agora] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-agora] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-67
-MERGED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-67
-MERGED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_auth] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_auth] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_database] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_database] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_storage] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_storage] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:lottie-react-native] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/lottie-react-native/src/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:lottie-react-native] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/lottie-react-native/src/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-agora] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-agora] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
 MERGED from [com.auth0.android:auth0:2.8.1] /home/nicolas/.gradle/caches/transforms-3/0fb80e6acde1ff8246fa798d7c8f10d8/transformed/jetified-auth0-2.8.1/AndroidManifest.xml:12:5-67
 MERGED from [com.auth0.android:auth0:2.8.1] /home/nicolas/.gradle/caches/transforms-3/0fb80e6acde1ff8246fa798d7c8f10d8/transformed/jetified-auth0-2.8.1/AndroidManifest.xml:12:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.4.1] /home/nicolas/.gradle/caches/transforms-3/09b93d8e7209fa3c68ac0741c7cf8246/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:13:5-67
@@ -203,61 +210,61 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /h
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/nicolas/.gradle/caches/transforms-3/3e5e6cf87f2db28c0e10c82f316df1bd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/nicolas/.gradle/caches/transforms-3/3e5e6cf87f2db28c0e10c82f316df1bd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
 	android:name
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:3:22-64
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:3:22-64
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:4:5-71
-MERGED from [:react-native-agora] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-71
-MERGED from [:react-native-agora] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-71
+ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:4:5-71
+MERGED from [:react-native-agora] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-71
+MERGED from [:react-native-agora] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-71
 	android:name
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:4:22-68
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:4:22-68
 uses-permission#android.permission.CAMERA
-ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:5:7-67
-MERGED from [:react-native-agora] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-65
-MERGED from [:react-native-agora] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-65
+ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:5:7-67
+MERGED from [:react-native-agora] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-65
+MERGED from [:react-native-agora] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-65
 	android:name
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:5:24-64
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:5:24-64
 uses-permission#android.permission.READ_MEDIA_IMAGES
-ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:6:7-77
+ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:6:7-77
 	android:name
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:6:24-75
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:6:24-75
 uses-permission#android.permission.READ_MEDIA_VIDEO
-ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:7:1-70
+ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:7:1-70
 	android:name
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:7:18-68
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:7:18-68
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:8:9-84
+ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:8:9-84
 	android:name
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:8:26-81
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:8:26-81
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:9:3-79
+ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:9:3-79
 	android:name
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:9:20-76
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:9:20-76
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:10:1-76
-MERGED from [:react-native-agora] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-80
-MERGED from [:react-native-agora] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-80
+ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:10:1-76
+MERGED from [:react-native-agora] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-80
+MERGED from [:react-native-agora] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-80
 	android:name
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:10:18-73
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:10:18-73
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:11:1-73
-MERGED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:11:1-73
-MERGED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:11:1-73
+ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:11:1-73
+MERGED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:11:1-73
+MERGED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:11:1-73
 	android:name
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:11:18-71
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:11:18-71
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:12:7-80
-MERGED from [:react-native-firebase_auth] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-firebase_auth] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-firebase_database] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-firebase_database] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-firebase_storage] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-firebase_storage] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-agora] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-79
-MERGED from [:react-native-agora] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-79
-MERGED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:12:7-80
+MERGED from [:react-native-firebase_auth] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_auth] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_database] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_database] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_storage] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_storage] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-agora] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-79
+MERGED from [:react-native-agora] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-79
+MERGED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
 MERGED from [com.google.firebase:firebase-firestore:24.4.1] /home/nicolas/.gradle/caches/transforms-3/09b93d8e7209fa3c68ac0741c7cf8246/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:12:5-79
 MERGED from [com.google.firebase:firebase-firestore:24.4.1] /home/nicolas/.gradle/caches/transforms-3/09b93d8e7209fa3c68ac0741c7cf8246/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:12:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] /home/nicolas/.gradle/caches/transforms-3/2337edb54e961797355c68d280460516/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:24:5-79
@@ -289,19 +296,19 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/nicolas/.gradle/caches/transforms-3/ae4de5225b419819ca8f19c475cee350/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/nicolas/.gradle/caches/transforms-3/ae4de5225b419819ca8f19c475cee350/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:12:24-78
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:12:24-78
 application
-ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:14:5-36:19
-MERGED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:14:5-36:19
-MERGED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:14:5-36:19
-MERGED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-43:19
-MERGED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-43:19
-MERGED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-30:19
-MERGED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-30:19
-MERGED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:5-54:19
-MERGED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:5-54:19
-MERGED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-26:19
-MERGED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-26:19
+ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:14:5-36:19
+MERGED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:14:5-36:19
+MERGED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:14:5-36:19
+MERGED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-43:19
+MERGED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-43:19
+MERGED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:5-54:19
+MERGED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:5-54:19
+MERGED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-26:19
+MERGED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-26:19
 MERGED from [com.facebook.react:react-android:0.71.2] /home/nicolas/.gradle/caches/transforms-3/8996c8cdc732db0a1ab75faabcf8af34/transformed/jetified-react-android-0.71.2-debug/AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.react:react-android:0.71.2] /home/nicolas/.gradle/caches/transforms-3/8996c8cdc732db0a1ab75faabcf8af34/transformed/jetified-react-android-0.71.2-debug/AndroidManifest.xml:9:5-20
 MERGED from [com.auth0.android:auth0:2.8.1] /home/nicolas/.gradle/caches/transforms-3/0fb80e6acde1ff8246fa798d7c8f10d8/transformed/jetified-auth0-2.8.1/AndroidManifest.xml:24:5-48:19
@@ -312,6 +319,8 @@ MERGED from [com.google.firebase:firebase-firestore:24.4.1] /home/nicolas/.gradl
 MERGED from [com.google.firebase:firebase-firestore:24.4.1] /home/nicolas/.gradle/caches/transforms-3/09b93d8e7209fa3c68ac0741c7cf8246/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:15:5-23:19
 MERGED from [com.airbnb.android:lottie:5.1.1] /home/nicolas/.gradle/caches/transforms-3/cb1a38b036f7438fb1593974c22f378a/transformed/jetified-lottie-5.1.1/AndroidManifest.xml:9:5-20
 MERGED from [com.airbnb.android:lottie:5.1.1] /home/nicolas/.gradle/caches/transforms-3/cb1a38b036f7438fb1593974c22f378a/transformed/jetified-lottie-5.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/nicolas/.gradle/caches/transforms-3/1276e3297a489a3c70222886eb04d345/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/nicolas/.gradle/caches/transforms-3/1276e3297a489a3c70222886eb04d345/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:47:5-75:19
 MERGED from [com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:47:5-75:19
 MERGED from [androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
@@ -377,98 +386,102 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nicol
 MERGED from [io.agora.rtc:full-screen-sharing:4.1.0-1] /home/nicolas/.gradle/caches/transforms-3/7515730c2b18712136866aa29237b83e/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:9:5-19:19
 MERGED from [io.agora.rtc:full-screen-sharing:4.1.0-1] /home/nicolas/.gradle/caches/transforms-3/7515730c2b18712136866aa29237b83e/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:9:5-19:19
 	android:requestLegacyExternalStorage
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:15:5-48
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:15:5-48
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:15:5-48
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:15:5-48
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] /home/nicolas/.gradle/caches/transforms-3/48c0254e85622aff08e26c4f5886e53e/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:17:7-39
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:17:7-39
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:17:7-39
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:17:7-39
 	tools:ignore
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:10:9-48
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:10:9-48
 	android:roundIcon
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:19:7-52
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:19:7-52
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:19:7-52
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:19:7-52
 	tools:targetApi
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:9:9-29
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:9:9-29
 	android:icon
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:18:7-41
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:18:7-41
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:18:7-41
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:18:7-41
 	android:allowBackup
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:20:7-34
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:20:7-34
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:20:7-34
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:20:7-34
 	android:theme
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:21:7-38
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:21:7-38
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:21:7-38
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:21:7-38
 	android:usesCleartextTraffic
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:8:9-44
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:8:9-44
 	android:name
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:16:7-38
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:16:7-38
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:16:7-38
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:16:7-38
 activity#com.verdadomito.MainActivity
-ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:23:7-35:18
+ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:23:7-35:18
 	android:label
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:25:9-41
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:25:9-41
 	android:launchMode
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:27:9-40
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:27:9-40
 	android:windowSoftInputMode
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:28:9-51
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:28:9-51
 	android:exported
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:29:9-32
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:29:9-32
 	android:configChanges
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:26:9-118
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:26:9-118
 	android:name
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:24:9-37
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:24:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:31:9-34:25
+ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:31:9-34:25
 action#android.intent.action.MAIN
-ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:32:13-65
+ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:32:13-65
 	android:name
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:32:21-62
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:32:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:33:13-73
+ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:33:13-73
 	android:name
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:33:23-70
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:33:23-70
 uses-sdk
-INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /home/nicolas/.gradle/caches/transforms-3/739f3845c7611b37435dc6e05d169355/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /home/nicolas/.gradle/caches/transforms-3/739f3845c7611b37435dc6e05d169355/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/nicolas/.gradle/caches/transforms-3/7b175d37f53f7293ca2772d5241097b3/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/nicolas/.gradle/caches/transforms-3/7b175d37f53f7293ca2772d5241097b3/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.125.0] /home/nicolas/.gradle/caches/transforms-3/609bc121fdf888108ff77fdf15aa4fee/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.125.0] /home/nicolas/.gradle/caches/transforms-3/609bc121fdf888108ff77fdf15aa4fee/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
-MERGED from [:react-native-firebase_auth] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_auth] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_database] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_database] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_firestore] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/firestore/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_firestore] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/firestore/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_storage] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_storage] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
-MERGED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
-MERGED from [:react-native-google-signin_google-signin] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-google-signin_google-signin] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-picker_picker] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-picker/picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-picker_picker] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-picker/picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:lottie-react-native] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/lottie-react-native/src/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:lottie-react-native] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/lottie-react-native/src/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-agora] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-agora] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-10:41
-MERGED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-10:41
-MERGED from [:react-native-gesture-handler] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-gesture-handler] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-vector-icons] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-vector-icons] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-video] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-video/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-video] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-video/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_auth] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_auth] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_database] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_database] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_firestore] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/firestore/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_firestore] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/firestore/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_storage] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_storage] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-google-signin_google-signin] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-google-signin_google-signin] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-picker_picker] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-picker/picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-picker_picker] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-picker/picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:lottie-react-native] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/lottie-react-native/src/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:lottie-react-native] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/lottie-react-native/src/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-agora] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-agora] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:react-native-gesture-handler] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-video] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-video/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-video] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-video/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-android:0.71.2] /home/nicolas/.gradle/caches/transforms-3/8996c8cdc732db0a1ab75faabcf8af34/transformed/jetified-react-android-0.71.2-debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-android:0.71.2] /home/nicolas/.gradle/caches/transforms-3/8996c8cdc732db0a1ab75faabcf8af34/transformed/jetified-react-android-0.71.2-debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.auth0.android:auth0:2.8.1] /home/nicolas/.gradle/caches/transforms-3/0fb80e6acde1ff8246fa798d7c8f10d8/transformed/jetified-auth0-2.8.1/AndroidManifest.xml:8:5-10:41
@@ -477,8 +490,8 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/nicolas
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/nicolas/.gradle/caches/transforms-3/4ce5a85c66974f46ee0b4e753d499ba3/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.react:hermes-android:0.71.2] /home/nicolas/.gradle/caches/transforms-3/15cb33afcfddaa1c37181f3bd274f9f7/transformed/jetified-hermes-android-0.71.2-debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:hermes-android:0.71.2] /home/nicolas/.gradle/caches/transforms-3/15cb33afcfddaa1c37181f3bd274f9f7/transformed/jetified-hermes-android-0.71.2-debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-sound] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-sound/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
-MERGED from [:react-native-sound] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-sound/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-sound] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-sound/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-sound] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-sound/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
 MERGED from [com.facebook.fbjni:fbjni:0.3.0] /home/nicolas/.gradle/caches/transforms-3/0c2f3856c241e022943978e6bedd5866/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fbjni:fbjni:0.3.0] /home/nicolas/.gradle/caches/transforms-3/0c2f3856c241e022943978e6bedd5866/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:flipper:2.6.0] /home/nicolas/.gradle/caches/transforms-3/ebd3d3c261d227cda3648627fa354ed9/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
@@ -543,6 +556,8 @@ MERGED from [io.grpc:grpc-android:1.50.2] /home/nicolas/.gradle/caches/transform
 MERGED from [io.grpc:grpc-android:1.50.2] /home/nicolas/.gradle/caches/transforms-3/32e02ec94a536fc747378c8b12fe23dc/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:5:5-7:41
 MERGED from [com.airbnb.android:lottie:5.1.1] /home/nicolas/.gradle/caches/transforms-3/cb1a38b036f7438fb1593974c22f378a/transformed/jetified-lottie-5.1.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.airbnb.android:lottie:5.1.1] /home/nicolas/.gradle/caches/transforms-3/cb1a38b036f7438fb1593974c22f378a/transformed/jetified-lottie-5.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.1.0] /home/nicolas/.gradle/caches/transforms-3/1276e3297a489a3c70222886eb04d345/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /home/nicolas/.gradle/caches/transforms-3/1276e3297a489a3c70222886eb04d345/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.4.1] /home/nicolas/.gradle/caches/transforms-3/3af14efacd96d9f6cc965317305dbd81/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.4.1] /home/nicolas/.gradle/caches/transforms-3/3af14efacd96d9f6cc965317305dbd81/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-ads:21.4.0] /home/nicolas/.gradle/caches/transforms-3/51918f04a179ffefbca56cc3ecbcfdb4/transformed/jetified-play-services-ads-21.4.0/AndroidManifest.xml:21:5-23:52
@@ -615,6 +630,8 @@ MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /home
 MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /home/nicolas/.gradle/caches/transforms-3/b29a7353810035e675f369707f740303/transformed/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/nicolas/.gradle/caches/transforms-3/6f7e9fd65d5e9fbca83fb74688dcf0d9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/nicolas/.gradle/caches/transforms-3/6f7e9fd65d5e9fbca83fb74688dcf0d9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/nicolas/.gradle/caches/transforms-3/9dc1d083a7cc801971a984f29ded930e/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/nicolas/.gradle/caches/transforms-3/9dc1d083a7cc801971a984f29ded930e/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] /home/nicolas/.gradle/caches/transforms-3/b1d722ea47f7bf8628005e822a30175a/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] /home/nicolas/.gradle/caches/transforms-3/b1d722ea47f7bf8628005e822a30175a/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.4.0] /home/nicolas/.gradle/caches/transforms-3/cb0c3435f27d31270beaedc966cb14bf/transformed/jetified-activity-1.4.0/AndroidManifest.xml:20:5-22:41
@@ -645,6 +662,8 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/nicola
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/nicolas/.gradle/caches/transforms-3/4751461eef664371663a65be28d56d69/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nicolas/.gradle/caches/transforms-3/e4ad3bf5a1b8f5dc886400630c5dcdfe/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nicolas/.gradle/caches/transforms-3/e4ad3bf5a1b8f5dc886400630c5dcdfe/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/nicolas/.gradle/caches/transforms-3/0b8aa69c034008bbe78142898cfa990a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/nicolas/.gradle/caches/transforms-3/0b8aa69c034008bbe78142898cfa990a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite:2.1.0] /home/nicolas/.gradle/caches/transforms-3/eac93a68dd1d8dae37bfb010949b4e4e/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite:2.1.0] /home/nicolas/.gradle/caches/transforms-3/eac93a68dd1d8dae37bfb010949b4e4e/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/nicolas/.gradle/caches/transforms-3/aeb03f7637e579c0f979cf96ce2573e1/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -661,6 +680,8 @@ MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/nicolas/.gradle/cac
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/nicolas/.gradle/caches/transforms-3/e1cb8ab5923113afe935174fe1a40a27/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] /home/nicolas/.gradle/caches/transforms-3/2228dfa3a585dbb4c9d597cbb4cb76fd/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /home/nicolas/.gradle/caches/transforms-3/2228dfa3a585dbb4c9d597cbb4cb76fd/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/nicolas/.gradle/caches/transforms-3/6fdcf9859658010bc70200a2218fe4e6/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/nicolas/.gradle/caches/transforms-3/6fdcf9859658010bc70200a2218fe4e6/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media:media:1.4.3] /home/nicolas/.gradle/caches/transforms-3/6300dda2c64cb3b0a11930398510772d/transformed/media-1.4.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media:media:1.4.3] /home/nicolas/.gradle/caches/transforms-3/6300dda2c64cb3b0a11930398510772d/transformed/media-1.4.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.7.0] /home/nicolas/.gradle/caches/transforms-3/48c0254e85622aff08e26c4f5886e53e/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
@@ -675,6 +696,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/nicolas/.gradle
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/nicolas/.gradle/caches/transforms-3/443fdd0e58916c23be819e44eca79c74/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nicolas/.gradle/caches/transforms-3/a42d8887ef2ae6658d7615ec2a70bece/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nicolas/.gradle/caches/transforms-3/a42d8887ef2ae6658d7615ec2a70bece/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/nicolas/.gradle/caches/transforms-3/412d4d3a29633ded4646ed94ee11dda6/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/nicolas/.gradle/caches/transforms-3/412d4d3a29633ded4646ed94ee11dda6/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/nicolas/.gradle/caches/transforms-3/eaf3a2328d6a5aa55c61234a2481a17b/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/nicolas/.gradle/caches/transforms-3/eaf3a2328d6a5aa55c61234a2481a17b/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/nicolas/.gradle/caches/transforms-3/20eb75bd56fd1c3a7ecfb3cc36bceb92/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
@@ -709,38 +732,38 @@ MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/nicolas/.g
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/nicolas/.gradle/caches/transforms-3/d5cf6eaf3bb4667eb1a3f7086da26663/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/nicolas/.gradle/caches/transforms-3/ccaf8d2dbe09382a91d6aec7ec2e6941/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/nicolas/.gradle/caches/transforms-3/ccaf8d2dbe09382a91d6aec7ec2e6941/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
-INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml
-INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.google.android.gms:play-services-ads:21.4.0] /home/nicolas/.gradle/caches/transforms-3/51918f04a179ffefbca56cc3ecbcfdb4/transformed/jetified-play-services-ads-21.4.0/AndroidManifest.xml:23:9-49
 	android:targetSdkVersion
-		INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:11:9-111
+ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:11:9-111
 	android:exported
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:11:84-108
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:11:84-108
 	android:name
-		ADDED from /home/nicolas/Música/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:11:19-83
+		ADDED from /home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:11:19-83
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.125.0] /home/nicolas/.gradle/caches/transforms-3/609bc121fdf888108ff77fdf15aa4fee/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
-MERGED from [:react-native-agora] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-76
-MERGED from [:react-native-agora] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-76
+MERGED from [:react-native-agora] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-76
+MERGED from [:react-native-agora] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.125.0] /home/nicolas/.gradle/caches/transforms-3/609bc121fdf888108ff77fdf15aa4fee/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:react-native-firebase_auth] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-firebase_database] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-firebase_database] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-firebase_storage] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-firebase_storage] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+ADDED from [:react-native-firebase_auth] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_database] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_database] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_storage] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_storage] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
 MERGED from [androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:25:5-68
 MERGED from [androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:25:5-68
 MERGED from [com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:26:5-68
@@ -750,65 +773,65 @@ MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /home/nicolas/.gradle/caches/transforms-3/df8d185170376b4a49e209ed28033045/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /home/nicolas/.gradle/caches/transforms-3/df8d185170376b4a49e209ed28033045/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from [:react-native-firebase_auth] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+		ADDED from [:react-native-firebase_auth] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
 service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService
-ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
+ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
 	android:exported
-		ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+		ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-103
+		ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-103
 service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
-ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:19
+ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:19
 	android:exported
-		ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+		ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-95
+		ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-95
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
+ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
+ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
+		ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
 receiver#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver
-ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-32:20
+ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-32:20
 	android:exported
-		ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+		ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
 	android:permission
-		ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-73
+		ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-73
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-96
+		ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-96
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+		ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
 meta-data#firebase_messaging_auto_init_enabled
-ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-36:36
+ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-36:36
 	android:value
-		ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-33
+		ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-33
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-64
+		ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-64
 meta-data#com.google.firebase.messaging.default_notification_channel_id
-ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-39:32
+ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-39:32
 	android:value
-		ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-29
+		ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-29
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-89
+		ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-89
 meta-data#com.google.firebase.messaging.default_notification_color
-ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-42:47
+ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-42:47
 	android:resource
-		ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44
+		ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-84
+		ADDED from [:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-84
 meta-data#app_data_collection_default_enabled
-ADDED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
+ADDED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
 	android:value
-		ADDED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
+		ADDED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
 	android:name
-		ADDED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
+		ADDED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
+ADDED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
 MERGED from [com.google.firebase:firebase-firestore:24.4.1] /home/nicolas/.gradle/caches/transforms-3/09b93d8e7209fa3c68ac0741c7cf8246/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:16:9-22:19
 MERGED from [com.google.firebase:firebase-firestore:24.4.1] /home/nicolas/.gradle/caches/transforms-3/09b93d8e7209fa3c68ac0741c7cf8246/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:16:9-22:19
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
@@ -826,125 +849,125 @@ MERGED from [com.google.firebase:firebase-installations:17.1.0] /home/nicolas/.g
 MERGED from [com.google.firebase:firebase-common:20.2.0] /home/nicolas/.gradle/caches/transforms-3/f0e2d73fc24bd8aab1fc1fcb9869617d/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
 MERGED from [com.google.firebase:firebase-common:20.2.0] /home/nicolas/.gradle/caches/transforms-3/f0e2d73fc24bd8aab1fc1fcb9869617d/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
 	android:exported
-		ADDED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+		ADDED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
 	tools:targetApi
-		ADDED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-32
+		ADDED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-32
 	android:directBootAware
-		ADDED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
+		ADDED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
 	android:name
-		ADDED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
+		ADDED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
 meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
-ADDED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
+ADDED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
 	android:value
-		ADDED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
+		ADDED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
 	android:name
-		ADDED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
+		ADDED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
 provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
-ADDED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
+ADDED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
 	android:authorities
-		ADDED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
+		ADDED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
 	android:exported
-		ADDED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+		ADDED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
 	android:initOrder
-		ADDED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
+		ADDED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
 	android:name
-		ADDED from [:react-native-firebase_app] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
+		ADDED from [:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
 uses-permission#android.permission.BLUETOOTH
-ADDED from [:react-native-agora] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-68
+ADDED from [:react-native-agora] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-68
 	android:name
-		ADDED from [:react-native-agora] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:22-65
+		ADDED from [:react-native-agora] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-agora/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:22-65
 queries
-ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-22:15
+ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-22:15
 MERGED from [com.auth0.android:auth0:2.8.1] /home/nicolas/.gradle/caches/transforms-3/0fb80e6acde1ff8246fa798d7c8f10d8/transformed/jetified-auth0-2.8.1/AndroidManifest.xml:14:5-22:15
 MERGED from [com.auth0.android:auth0:2.8.1] /home/nicolas/.gradle/caches/transforms-3/0fb80e6acde1ff8246fa798d7c8f10d8/transformed/jetified-auth0-2.8.1/AndroidManifest.xml:14:5-22:15
 MERGED from [com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:29:5-45:15
 MERGED from [com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:29:5-45:15
 intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
-ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:18
+ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:18
 action#android.intent.action.VIEW
-ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-65
+ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-65
 	android:name
-		ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:21-62
+		ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:21-62
 category#android.intent.category.BROWSABLE
-ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-74
+ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-74
 	android:name
-		ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:23-71
+		ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:23-71
 data
-ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-44
+ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-44
 	android:scheme
-		ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:19-41
+		ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:19-41
 activity#com.auth0.react.AuthenticationActivity
-ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-30:75
+ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-30:75
 	android:launchMode
-		ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-44
+		ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-44
 	android:exported
-		ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+		ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
 	android:configChanges
-		ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-115
+		ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-115
 	android:theme
-		ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-72
+		ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-72
 	android:name
-		ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-66
+		ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-66
 activity#com.auth0.react.RedirectActivity
-ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:9-47:20
+ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:9-47:20
 	android:exported
-		ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-36
+		ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-60
+		ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-60
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:${auth0Domain}+data:pathPrefix:/android/${applicationId}/callback+data:scheme:${auth0Scheme}
-ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-46:29
+ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-46:29
 	android:autoVerify
-		ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:17-42
+		ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:17-42
 	tools:targetApi
-		ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:17-36
+		ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:17-36
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:verdadomito.us.auth0.com+data:pathPrefix:/android/com.verdadomito/callback+data:scheme:ugf7ZQ64ZPWRDlZl1U7L2zdXlb36Jb1i
-ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-46:29
+ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-46:29
 	android:autoVerify
-		ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:17-42
+		ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:17-42
 	tools:targetApi
-		ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:17-36
+		ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:17-36
 category#android.intent.category.DEFAULT
-ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:17-76
+ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:17-76
 	android:name
-		ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:27-73
+		ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:27-73
 activity#com.auth0.android.provider.RedirectActivity
-ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:48:9-50:35
+ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:48:9-50:35
 REJECTED from [com.auth0.android:auth0:2.8.1] /home/nicolas/.gradle/caches/transforms-3/0fb80e6acde1ff8246fa798d7c8f10d8/transformed/jetified-auth0-2.8.1/AndroidManifest.xml:31:9-47:20
 	tools:node
-		ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:50:13-32
+		ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:50:13-32
 	android:name
-		ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:49:13-71
+		ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:49:13-71
 activity#com.auth0.android.provider.AuthenticationActivity
-ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:51:9-53:35
+ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:51:9-53:35
 REJECTED from [com.auth0.android:auth0:2.8.1] /home/nicolas/.gradle/caches/transforms-3/0fb80e6acde1ff8246fa798d7c8f10d8/transformed/jetified-auth0-2.8.1/AndroidManifest.xml:25:9-30:75
 	tools:node
-		ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:53:13-32
+		ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:53:13-32
 	android:name
-		ADDED from [:react-native-auth0] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:52:13-77
+		ADDED from [:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:52:13-77
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:70
+ADDED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:70
 	android:value
-		ADDED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-67
+		ADDED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-67
 	android:name
-		ADDED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-69
+		ADDED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-69
 meta-data#com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT
-ADDED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-19:37
+ADDED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-19:37
 	android:value
-		ADDED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-34
+		ADDED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-34
 	android:name
-		ADDED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-81
+		ADDED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-81
 meta-data#com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION
-ADDED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-22:36
+ADDED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-22:36
 	android:value
-		ADDED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-33
+		ADDED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-33
 	android:name
-		ADDED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-83
+		ADDED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-83
 meta-data#com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING
-ADDED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-25:36
+ADDED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-25:36
 	android:value
-		ADDED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-33
+		ADDED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-33
 	android:name
-		ADDED from [:react-native-google-mobile-ads] /home/nicolas/Música/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-79
+		ADDED from [:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-79
 meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
 ADDED from [com.google.firebase:firebase-firestore:24.4.1] /home/nicolas/.gradle/caches/transforms-3/09b93d8e7209fa3c68ac0741c7cf8246/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:19:13-21:85
 	android:value

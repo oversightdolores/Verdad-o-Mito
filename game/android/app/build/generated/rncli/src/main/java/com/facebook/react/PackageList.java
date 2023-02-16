@@ -37,6 +37,10 @@ import com.auth0.react.A0Auth0Package;
 import com.swmansion.gesturehandler.RNGestureHandlerPackage;
 // react-native-google-mobile-ads
 import io.invertase.googlemobileads.ReactNativeGoogleMobileAdsPackage;
+// react-native-safe-area-context
+import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
+// react-native-screens
+import com.swmansion.rnscreens.RNScreensPackage;
 // react-native-sound
 import com.zmxv.RNSound.RNSoundPackage;
 // react-native-vector-icons
@@ -101,6 +105,8 @@ public class PackageList {
       new A0Auth0Package(),
       new RNGestureHandlerPackage(),
       new ReactNativeGoogleMobileAdsPackage(),
+      new SafeAreaContextPackage(),
+      new RNScreensPackage(),
       new RNSoundPackage(),
       new VectorIconsPackage(),
       new ReactVideoPackage()

@@ -10,58 +10,58 @@ interface Question {
 
 const questions: Array<Question> = [
     {
-        pregunta: "¿El 5G aumenta el riesgo de cáncer?",
-        descripcion:
+        "question": "¿El 5G aumenta el riesgo de cáncer?",
+        "description":
             "Actualmente, no hay evidencia científica que respalde la afirmación de que las ondas electromagnéticas emitidas por la tecnología 5G causan cáncer. Las frecuencias utilizadas por 5G son similares a las de otras tecnologías inalámbricas existentes, como el Wi-Fi y la tecnología 4G, y están dentro de los límites de seguridad establecidos por las agencias reguladoras de salud.",
-        respuesta: "mito",
+        "response": "mito",
     },
     {
-        pregunta: "¿Los smartphones están desplazando a las computadoras?",
-        descripcion:
+        "question": "¿Los smartphones están desplazando a las computadoras?",
+        "description":
             "Los smartphones se han convertido en un dispositivo cada vez más versátil que puede cumplir muchas de las funciones que antes requerían una computadora. Muchas personas utilizan sus smartphones para navegar por Internet, realizar transacciones en línea, jugar juegos y realizar otras tareas que antes requerían una computadora. Además, la popularidad de las aplicaciones móviles ha aumentado, lo que ha llevado a una mayor dependencia de los smartphones en lugar de las computadoras.",
-        respuesta: "verdad",
+        "response": "verdad",
     },
     {
-        pregunta: "¿Es cierto que los atletas deben comer carne roja para tener más proteína en su dieta? ",
-        descripcion:
+        "question": "¿Es cierto que los atletas deben comer carne roja para tener más proteína en su dieta? ",
+        "description":
             "La verdad es que los atletas pueden obtener proteína de diferentes fuentes, incluyendo carnes rojas, aves, pescados, productos lácteos y vegetarianos. No es necesario consumir carne roja para tener una dieta equilibrada y adecuada para el deporte.",
-        respuesta: "mito",
+        "response": "mito",
     },
     {
-        pregunta: "¿Es verdad que hacer ejercicio en la mañana antes de desayunar es más efectivo para perder peso? ",
-        descripcion:
+        "question": "¿Es verdad que hacer ejercicio en la mañana antes de desayunar es más efectivo para perder peso? ",
+        "description":
             "No hay una hora específica del día que sea más efectiva para hacer ejercicio o perder peso. Lo más importante es hacer ejercicio regularmente y mantener una dieta equilibrada.",
-        respuesta: "mito",
+        "response": "mito",
     },
     {
-        pregunta: "¿Es cierto que beber agua fría ayuda a quemar más calorías durante el ejercicio? ",
-        descripcion:
+        "question": "¿Es cierto que beber agua fría ayuda a quemar más calorías durante el ejercicio? ",
+        "description":
             "El cuerpo no quema calorías adicionales al beber agua fría o caliente. Lo más importante es mantenerse hidratado durante el ejercicio.",
-        respuesta: "mito",
+        "response": "mito",
     },
     {
-        pregunta: "¿Es cierto que todas las estrellas de Hollywood tienen un entrenador personal? ",
-        descripcion:
+        "question": "¿Es cierto que todas las estrellas de Hollywood tienen un entrenador personal? ",
+        "description":
             "No todas las estrellas de Hollywood tienen un entrenador personal, aunque es común que algunas personas famosas contraten a un entrenador para ayudarles a mantenerse en forma.",
-        respuesta: "mito",
+        "response": "mito",
     },
     {
-        pregunta: "¿Es cierto que los dinosaurios están extintos desde hace 65 millones de años?",
-        descripcion:
+        "question": "¿Es cierto que los dinosaurios están extintos desde hace 65 millones de años?",
+        "description":
             " Los dinosaurios están extintos desde hace 65 millones de años, debido a un impacto de un asteroide en la Tierra.",
-        respuesta: "verdad",
+        "response": "verdad",
     },
     {
-        pregunta: "¿Es un mito que los dioses griegos eran inmortales?",
-        descripcion:
+        "question": "¿Es un mito que los dioses griegos eran inmortales?",
+        "description":
             "Los dioses griegos eran considerados inmortales, pero no eran inmunes a sufrir daños o ser heridos.",
-        respuesta: "verdad",
+        "response": "verdad",
     },
     {
-        pregunta: "¿Es un mito que Cleopatra era egipcia?",
-        descripcion:
+        "question": "¿Es un mito que Cleopatra era egipcia?",
+        "description":
             "Cleopatra era de origen griego, pero nació en Egipto y se convirtió en la última reina de Egipto.",
-        respuesta: "verdad",
+        "response": "verdad",
     },
 ];
 

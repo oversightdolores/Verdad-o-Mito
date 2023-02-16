@@ -19,7 +19,7 @@ const rewarded = RewardedAd.createForAdRequest(adUnitId, {
 
 //ca-app-pub-1460570234418559/4817466382
 
-const Game = () => {
+const Game = ({navigation}) => {
     const dispatch = useDispatch()
     const question = useSelector(state => state.question)
     const [selectedQuestion, setSelectedQuestion] = useState();
@@ -32,40 +32,51 @@ const Game = () => {
         mito: false
     })
   const [showModal, setShowModal] = useState(false);
-  const [loaded, setLoaded] = useState(false);
+  const [rewardedAd, setRewardedAd] = useState(null);
+  const [rewarded, setRewarded] = useState(false)
 
   useEffect(() => {
-    const unsubscribeLoaded = rewarded.addAdEventListener(RewardedAdEventType.LOADED, () => {
-      setLoaded(true);
+    const ad = RewardedAd.createForAdRequest(adUnitId, {
+      requestNonPersonalizedAdsOnly: true,
+      keywords: ['fashion', 'clothing'],
     });
-    const unsubscribeEarned = rewarded.addAdEventListener(
-      RewardedAdEventType.EARNED_REWARD,
-      reward => {
-        console.log('User earned reward of ', reward);
-      },
-    );
 
-    // Start loading the rewarded ad straight away
-    rewarded.load();
+    const unsubscribeLoaded = ad.addAdEventListener(RewardedAdEventType.LOADED, () => {
+      console.log('Rewarded ad loaded');
+      setRewarded(true)
+    });
 
-    // Unsubscribe from events on unmount
+    const unsubscribeEarned = ad.addAdEventListener(RewardedAdEventType.EARNED_REWARD, reward => {
+      console.log('User earned reward of ', reward);
+      // Cargar un nuevo anuncio recompensado después de que el usuario haya aceptado la recompensa
+      ad.load();
+    });
+
+    setRewardedAd(ad);
+
+    // Cargar el anuncio recompensado al montar el componente
+    ad.load();
+
+    // Limpiar al desmontar el componente
     return () => {
       unsubscribeLoaded();
       unsubscribeEarned();
-    };
-  }, [rewarded]);
-
-  const handleResponse = (response) => {
-   
-        if (loaded) {
-          if (response === "Incorrecto!" ) {
-              console.log(response)
-            rewarded.show();
-          }
-        } else {
-          console.log('The RewardedAd has not loaded yet.');
-        }
       
+    };
+  }, []);
+
+  const handleShowAd = async () => {
+    try {
+      // Comprobar si el anuncio recompensado está cargado
+      if (rewarded) {
+        // Mostrar el anuncio recompensado
+        await rewardedAd.show();
+      } else {
+        console.log('Rewarded ad not loaded');
+      }
+    } catch (error) {
+      console.error(error);
+    }
   };
 
   
@@ -160,9 +171,9 @@ const Game = () => {
 
     return (
         <View style={{flex: 1}}>
-            <Text>correctas: {points}/5</Text>
-            <Text>{timer}</Text>
-            <Text>{question.question} </Text>
+            <Text style={{ color: '#000', margin: 10 }}>correctas: {points}/5</Text>
+            <Text style={{ color: '#000', margin: 10 }}>{timer}</Text>
+            <Text style={{ color: '#000', margin: 10 }}>{question.question} </Text>
 
             <View style={{ height: 300, width: '90%', justifyContent: 'center', alignItems: 'center', backgroundColor: '#fff', margin: 10, borderColor: response === 'Correcto!' ? '#3cb04f' : response === 'Incorrecto!' ? '#f55' : '#FFF', borderWidth: 10, borderRadius: 10 }}>{
                 response === "Correcto!" ?
@@ -215,17 +226,29 @@ const Game = () => {
     :null
 }
 
-            {
+{
                 response === '' ?
                 null
                 :
-                <TouchableOpacity onPress={() => nextQuestions()} >
+                response === 'Incorrecto!' ?
+                <TouchableOpacity onPress={() => [navigation.navigate('Home'), handleShowAd()]} >
                 <Animatable.View animation={'zoomIn'} style={[styles.sigiente]}>
-                <Text style={{fontWeight: '700', fontSize: 15}}>{response === 'Incorrecto!' ? 'continuar': "Siguiente pregunta"}</Text>
+                <Text style={{fontWeight: '700', fontSize: 15}}>continuar</Text>
                 </Animatable.View>
             </TouchableOpacity>
+                
+                :
+                response === 'Correcto!' ?
+                <TouchableOpacity onPress={() => nextQuestions()} >
+                <Animatable.View animation={'zoomIn'} style={[styles.sigiente]}>
+                <Text style={{fontWeight: '700', fontSize: 15}}> Siguiente pregunta</Text>
+                </Animatable.View>
+            </TouchableOpacity>
+                :
+                null
                
             }
+
 
 <View>
      
@@ -241,7 +264,7 @@ const Game = () => {
           <TouchableOpacity style={styles.btn_publi} onPress={() => [setResponse('Incorrecto!'), setShowModal(false)]}>
             <Text style={{color: '#000',}} >No</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.btn_publi} onPress={() => [handleResponse(response), nextQuestions(), setShowModal(false)]}>
+          <TouchableOpacity style={styles.btn_publi} onPress={() => [handleShowAd(), nextQuestions(), setShowModal(false)]}>
             <Text style={{color: '#000',}} >Yes</Text>
           </TouchableOpacity>
           </View>

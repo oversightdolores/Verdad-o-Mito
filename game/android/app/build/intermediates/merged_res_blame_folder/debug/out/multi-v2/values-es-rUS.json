@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.verdadomito.app-mergeDebugResources-40:/values-es-rUS/values-es-rUS.xml",
+            "outputFile": "com.verdadomito.app-mergeDebugResources-45:/values-es-rUS/values-es-rUS.xml",
             "map": [
                 {
                     "source": "/home/nicolas/.gradle/caches/transforms-3/2337edb54e961797355c68d280460516/transformed/jetified-exoplayer-core-2.18.1/res/values-es-rUS/values-es-rUS.xml",

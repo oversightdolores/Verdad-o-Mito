@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.verdadomito.app-mergeDebugResources-40:/values-af/values-af.xml",
+            "outputFile": "com.verdadomito.app-mergeDebugResources-45:/values-af/values-af.xml",
             "map": [
                 {
                     "source": "/home/nicolas/.gradle/caches/transforms-3/2337edb54e961797355c68d280460516/transformed/jetified-exoplayer-core-2.18.1/res/values-af/values-af.xml",
