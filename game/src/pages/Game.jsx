@@ -97,7 +97,7 @@ const Game = ({navigation}) => {
         timerRef.current = setInterval(() => {
             setTimer(timer - 1);
         }, 1000);
-
+        dispatch(getQuestion)
         return () => {
             clearInterval(timerRef.current);
         };
@@ -112,7 +112,7 @@ const Game = ({navigation}) => {
             setResponse('Incorrecto!')
 
         }
-    }, [ timerRef,timer]);
+    }, [ dispatch,timer]);
     //generame una funcion de carga
 
     const handleVerdad = () => {
@@ -202,12 +202,11 @@ const Game = ({navigation}) => {
   : 
     response === '' ? 
 
-    <Button
-        title="Verdad"
-        onPress={handleVerdad}
-        color='#3cb04f'
-        disabled={disabled.verdad}
-      />
+    <TouchableOpacity onPress={() => disabled.verdad ? '' : handleVerdad()} >
+    <Animatable.View animation={'zoomIn'} style={[styles.btn_verdad]}>
+    <Text style={{fontWeight: '700', fontSize: 15}}> Verdad</Text>
+    </Animatable.View>
+ </TouchableOpacity>
       : null
 }
 
@@ -217,12 +216,11 @@ const Game = ({navigation}) => {
   <ShakeButton onPress={handleMito} response={response} />
   :
    response === '' ? 
-  <Button
-      title="Mito"
-      onPress={handleMito}
-      color='tomato'
-      disabled={disabled.mito}
-    />
+   <TouchableOpacity onPress={() => disabled.mito ? '' : handleMito()} >
+   <Animatable.View animation={'zoomIn'} style={[styles.btn_mito]}>
+   <Text style={{fontWeight: '700', fontSize: 15}}> Mito</Text>
+   </Animatable.View>
+</TouchableOpacity>
     :null
 }
 
@@ -319,6 +317,24 @@ const styles = StyleSheet.create({
       btn_publi : {
         backgroundColor: '#3a86ff', 
         borderRadius: 10,
+      padding: 16,
+      margin: 10,
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'center'
+      },
+      btn_verdad: {
+        backgroundColor: '#3cb04f',
+      borderRadius: 10,
+      padding: 16,
+      margin: 10,
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'center'
+      },
+      btn_mito: {
+        backgroundColor: 'tomato',
+      borderRadius: 10,
       padding: 16,
       margin: 10,
       flexDirection: 'row',

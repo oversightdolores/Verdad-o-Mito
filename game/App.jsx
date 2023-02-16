@@ -53,21 +53,22 @@ function App() {
     <Auth0Provider domain={"verdadomito.us.auth0.com"} clientId={"ugf7ZQ64ZPWRDlZl1U7L2zdXlb36Jb1i"}>
       <NavigationContainer>
     <Provider store={store}>
-      <SafeAreaView style={{ flex: 1,  backgroundColor: '#ffbe0b',justifyContent: 'center'}}>
+      <SafeAreaView style={{ flex: 1, }}>
 
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Game" component={Game} />
       </Stack.Navigator>
         
-       
+      <View style={{alignItems: 'center'}} > 
         <BannerAd
       unitId={adUnitId}
-      size={BannerAdSize.FULL_BANNER}
+      size={BannerAdSize.BANNER}
       requestOptions={{
         requestNonPersonalizedAdsOnly: true,
       }}
     />
+    </View>
 
       </SafeAreaView>
     </Provider>
