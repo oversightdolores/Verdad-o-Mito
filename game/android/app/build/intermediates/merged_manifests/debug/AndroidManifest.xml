@@ -69,6 +69,17 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="verdadmito.us.auth0.com"
+                    android:path="/android/com.verdadomito/callback"
+                    android:scheme="com.verdadomito" />
+            </intent-filter>
         </activity>
 
         <service
@@ -156,15 +167,15 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="verdadomito.us.auth0.com"
+                    android:host="verdadmito.us.auth0.com"
                     android:pathPrefix="/android/com.verdadomito/callback"
-                    android:scheme="ugf7ZQ64ZPWRDlZl1U7L2zdXlb36Jb1i" />
+                    android:scheme="1Lr7BOV47ReRp1ulLA5VHt6scDnpnEBx" />
             </intent-filter>
         </activity>
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-1460570234418559~9710700419" />
+            android:value="ca-app-pub-1460570234418559~3971412136" />
         <meta-data
             android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT"
             android:value="false" />

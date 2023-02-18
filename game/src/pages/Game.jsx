@@ -168,7 +168,7 @@ const Game = () => {
 
     const nextQuestions = () => {
     
-      
+       
         navigation.navigate('Search')
         setResponse(''),
         setDisabled({ ...disabled, mito: false, verdad: false }),
@@ -257,11 +257,6 @@ const Game = () => {
                
             }
 
-<TouchableOpacity onPress={() => navigation.dispatch(navigation.navigate('Profile'))} >
-   <Animatable.View animation={'zoomIn'} style={[styles.btn_mito]}>
-   <Text style={{fontWeight: '700', fontSize: 15}}> Profile</Text>
-   </Animatable.View>
-</TouchableOpacity>
 
 <View>
      

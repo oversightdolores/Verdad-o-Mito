@@ -53,16 +53,16 @@
 26        <intent>
 26-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:18
 27            <action android:name="android.intent.action.VIEW" />
-27-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-65
-27-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:21-62
+27-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:36:5-57
+27-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:36:13-54
 28
 29            <category android:name="android.intent.category.BROWSABLE" />
-29-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-74
-29-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:23-71
+29-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:39:5-66
+29-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:39:15-63
 30
 31            <data android:scheme="https" />
-31-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-44
-31-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:19-41
+31-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:41:5-134
+31-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:41:11-43
 32        </intent>
 33        <!-- End of browser content -->
 34        <!-- For CustomTabsService -->
@@ -91,7 +91,7 @@
 44-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:28:22-79
 45
 46    <application
-46-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:14:5-36:19
+46-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:14:5-45:19
 47        android:name="com.verdadomito.MainApplication"
 47-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:16:7-38
 48        android:allowBackup="false"
@@ -118,7 +118,7 @@
 59            android:exported="false" />
 59-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/debug/AndroidManifest.xml:11:84-108
 60        <activity
-60-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:23:7-35:18
+60-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:23:7-44:18
 61            android:name="com.verdadomito.MainActivity"
 61-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:24:9-37
 62            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
@@ -141,664 +141,691 @@
 70-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:33:13-73
 70-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:33:23-70
 71            </intent-filter>
-72        </activity>
-73
-74        <service
-74-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
-75            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
-75-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-103
-76            android:exported="false" />
-76-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
-77        <service
-77-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:19
-78            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
-78-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-95
-79            android:exported="false" >
-79-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
-80            <intent-filter>
-80-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
-81                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-81-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
-81-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
+72            <intent-filter>
+72-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:35:9-42:17
+73                <action android:name="android.intent.action.VIEW" />
+73-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:36:5-57
+73-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:36:13-54
+74
+75                <category android:name="android.intent.category.DEFAULT" />
+75-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:38:5-64
+75-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:38:15-61
+76                <category android:name="android.intent.category.BROWSABLE" />
+76-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:39:5-66
+76-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:39:15-63
+77
+78                <data
+78-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:41:5-134
+79                    android:host="verdadmito.us.auth0.com"
+79-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:41:44-82
+80                    android:path="/android/com.verdadomito/callback"
+80-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:41:83-131
+81                    android:scheme="com.verdadomito" />
+81-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:41:11-43
 82            </intent-filter>
-83        </service>
+83        </activity>
 84
-85        <receiver
-85-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-32:20
-86            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
-86-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-96
-87            android:exported="true"
-87-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
-88            android:permission="com.google.android.c2dm.permission.SEND" >
-88-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-73
-89            <intent-filter>
-89-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
-90                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-90-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
-90-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
-91            </intent-filter>
-92        </receiver>
-93
-94        <meta-data
-94-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-36:36
-95            android:name="firebase_messaging_auto_init_enabled"
-95-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-64
-96            android:value="true" />
-96-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-33
-97        <meta-data
-97-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-39:32
-98            android:name="com.google.firebase.messaging.default_notification_channel_id"
-98-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-89
-99            android:value="" />
-99-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-29
-100        <meta-data
-100-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-42:47
-101            android:name="com.google.firebase.messaging.default_notification_color"
-101-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-84
-102            android:resource="@color/white" />
-102-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44
-103        <meta-data
-103-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
-104            android:name="app_data_collection_default_enabled"
-104-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
-105            android:value="true" />
-105-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
-106
-107        <service
-107-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
-108            android:name="com.google.firebase.components.ComponentDiscoveryService"
-108-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
-109            android:directBootAware="true"
-109-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
-110            android:exported="false" >
-110-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
-111            <meta-data
-111-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
-112                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
-112-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
-113                android:value="com.google.firebase.components.ComponentRegistrar" />
-113-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
-114            <meta-data
-114-->[com.google.firebase:firebase-firestore:24.4.1] /home/nicolas/.gradle/caches/transforms-3/09b93d8e7209fa3c68ac0741c7cf8246/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:19:13-21:85
-115                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-115-->[com.google.firebase:firebase-firestore:24.4.1] /home/nicolas/.gradle/caches/transforms-3/09b93d8e7209fa3c68ac0741c7cf8246/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:20:17-111
-116                android:value="com.google.firebase.components.ComponentRegistrar" />
-116-->[com.google.firebase:firebase-firestore:24.4.1] /home/nicolas/.gradle/caches/transforms-3/09b93d8e7209fa3c68ac0741c7cf8246/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:21:17-82
-117            <meta-data
-117-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
-118                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-118-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
-119                android:value="com.google.firebase.components.ComponentRegistrar" />
-119-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
-120            <meta-data
-120-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:55:13-57:85
-121                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-121-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:56:17-119
-122                android:value="com.google.firebase.components.ComponentRegistrar" />
-122-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:57:17-82
-123            <meta-data
-123-->[com.google.firebase:firebase-storage:20.1.0] /home/nicolas/.gradle/caches/transforms-3/9e81df0cc81e10dcc63f3840f340795f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
-124                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-124-->[com.google.firebase:firebase-storage:20.1.0] /home/nicolas/.gradle/caches/transforms-3/9e81df0cc81e10dcc63f3840f340795f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
-125                android:value="com.google.firebase.components.ComponentRegistrar" />
-125-->[com.google.firebase:firebase-storage:20.1.0] /home/nicolas/.gradle/caches/transforms-3/9e81df0cc81e10dcc63f3840f340795f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
-126            <meta-data
-126-->[com.google.firebase:firebase-database:20.1.0] /home/nicolas/.gradle/caches/transforms-3/2f9e15c33012fb6ecbb1586fc9aafbf7/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
-127                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-127-->[com.google.firebase:firebase-database:20.1.0] /home/nicolas/.gradle/caches/transforms-3/2f9e15c33012fb6ecbb1586fc9aafbf7/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:32:17-109
-128                android:value="com.google.firebase.components.ComponentRegistrar" />
-128-->[com.google.firebase:firebase-database:20.1.0] /home/nicolas/.gradle/caches/transforms-3/2f9e15c33012fb6ecbb1586fc9aafbf7/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:33:17-82
-129            <meta-data
-129-->[com.google.firebase:firebase-datatransport:18.1.7] /home/nicolas/.gradle/caches/transforms-3/4553e872c2c9aa5c71b35260e22f8950/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
-130                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-130-->[com.google.firebase:firebase-datatransport:18.1.7] /home/nicolas/.gradle/caches/transforms-3/4553e872c2c9aa5c71b35260e22f8950/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
-131                android:value="com.google.firebase.components.ComponentRegistrar" />
-131-->[com.google.firebase:firebase-datatransport:18.1.7] /home/nicolas/.gradle/caches/transforms-3/4553e872c2c9aa5c71b35260e22f8950/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
-132            <meta-data
-132-->[com.google.firebase:firebase-installations:17.1.0] /home/nicolas/.gradle/caches/transforms-3/27c941e9b509d51bd7dd59668d0bfb97/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
-133                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-133-->[com.google.firebase:firebase-installations:17.1.0] /home/nicolas/.gradle/caches/transforms-3/27c941e9b509d51bd7dd59668d0bfb97/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
-134                android:value="com.google.firebase.components.ComponentRegistrar" />
-134-->[com.google.firebase:firebase-installations:17.1.0] /home/nicolas/.gradle/caches/transforms-3/27c941e9b509d51bd7dd59668d0bfb97/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
-135        </service>
-136
-137        <provider
-137-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
-138            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
-138-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
-139            android:authorities="com.verdadomito.reactnativefirebaseappinitprovider"
-139-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
-140            android:exported="false"
-140-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
-141            android:initOrder="99" />
-141-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
-142
-143        <activity
-143-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-30:75
-144            android:name="com.auth0.react.AuthenticationActivity"
-144-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-66
-145            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboard|keyboardHidden"
-145-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-115
-146            android:exported="false"
-146-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
-147            android:launchMode="singleTask"
-147-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-44
-148            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-148-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-72
-149        <activity
-149-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:9-47:20
-150            android:name="com.auth0.react.RedirectActivity"
-150-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-60
-151            android:exported="true" >
-151-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-36
-152            <intent-filter android:autoVerify="true" >
-152-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-46:29
-152-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:17-42
-153                <action android:name="android.intent.action.VIEW" />
-153-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-65
-153-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:21-62
-154
-155                <category android:name="android.intent.category.DEFAULT" />
-155-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:17-76
-155-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:27-73
-156                <category android:name="android.intent.category.BROWSABLE" />
-156-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-74
-156-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:23-71
-157
-158                <data
-158-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-44
-159                    android:host="verdadomito.us.auth0.com"
-160                    android:pathPrefix="/android/com.verdadomito/callback"
-161                    android:scheme="ugf7ZQ64ZPWRDlZl1U7L2zdXlb36Jb1i" />
-161-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:19-41
-162            </intent-filter>
-163        </activity>
-164
-165        <meta-data
-165-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:70
-166            android:name="com.google.android.gms.ads.APPLICATION_ID"
-166-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-69
-167            android:value="ca-app-pub-1460570234418559~9710700419" />
-167-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-67
-168        <meta-data
-168-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-19:37
-169            android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT"
-169-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-81
-170            android:value="false" />
-170-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-34
-171        <meta-data
-171-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-22:36
-172            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
-172-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-83
-173            android:value="true" />
-173-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-33
-174        <meta-data
-174-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-25:36
-175            android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"
-175-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-79
-176            android:value="true" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-176-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-33
-177        <activity
-177-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:50:9-55:43
-178            android:name="com.google.android.gms.ads.AdActivity"
-178-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:51:13-65
-179            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-179-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:52:13-122
-180            android:exported="false"
-180-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:53:13-37
-181            android:theme="@android:style/Theme.Translucent" />
-181-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:54:13-61
-182
-183        <provider
-183-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:57:9-62:43
-184            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-184-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:58:13-76
-185            android:authorities="com.verdadomito.mobileadsinitprovider"
-185-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:59:13-73
-186            android:exported="false"
-186-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:60:13-37
-187            android:initOrder="100" />
-187-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:61:13-36
-188
-189        <service
-189-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:64:9-68:43
-190            android:name="com.google.android.gms.ads.AdService"
-190-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:65:13-64
-191            android:enabled="true"
-191-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:66:13-35
-192            android:exported="false" />
-192-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:67:13-37
+85        <service
+85-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
+86            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+86-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-103
+87            android:exported="false" />
+87-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+88        <service
+88-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:19
+89            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+89-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-95
+90            android:exported="false" >
+90-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+91            <intent-filter>
+91-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
+92                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+92-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
+92-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
+93            </intent-filter>
+94        </service>
+95
+96        <receiver
+96-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-32:20
+97            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+97-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-96
+98            android:exported="true"
+98-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+99            android:permission="com.google.android.c2dm.permission.SEND" >
+99-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-73
+100            <intent-filter>
+100-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+101                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+101-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+101-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+102            </intent-filter>
+103        </receiver>
+104
+105        <meta-data
+105-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-36:36
+106            android:name="firebase_messaging_auto_init_enabled"
+106-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-64
+107            android:value="true" />
+107-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-33
+108        <meta-data
+108-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-39:32
+109            android:name="com.google.firebase.messaging.default_notification_channel_id"
+109-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-89
+110            android:value="" />
+110-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-29
+111        <meta-data
+111-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-42:47
+112            android:name="com.google.firebase.messaging.default_notification_color"
+112-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-84
+113            android:resource="@color/white" />
+113-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44
+114        <meta-data
+114-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
+115            android:name="app_data_collection_default_enabled"
+115-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
+116            android:value="true" />
+116-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
+117
+118        <service
+118-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
+119            android:name="com.google.firebase.components.ComponentDiscoveryService"
+119-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
+120            android:directBootAware="true"
+120-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
+121            android:exported="false" >
+121-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+122            <meta-data
+122-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
+123                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+123-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-firestore:24.4.1] /home/nicolas/.gradle/caches/transforms-3/09b93d8e7209fa3c68ac0741c7cf8246/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:19:13-21:85
+126                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+126-->[com.google.firebase:firebase-firestore:24.4.1] /home/nicolas/.gradle/caches/transforms-3/09b93d8e7209fa3c68ac0741c7cf8246/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:20:17-111
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-firestore:24.4.1] /home/nicolas/.gradle/caches/transforms-3/09b93d8e7209fa3c68ac0741c7cf8246/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:21:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+129                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+129-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:55:13-57:85
+132                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+132-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:56:17-119
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:57:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-storage:20.1.0] /home/nicolas/.gradle/caches/transforms-3/9e81df0cc81e10dcc63f3840f340795f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+135                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+135-->[com.google.firebase:firebase-storage:20.1.0] /home/nicolas/.gradle/caches/transforms-3/9e81df0cc81e10dcc63f3840f340795f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-storage:20.1.0] /home/nicolas/.gradle/caches/transforms-3/9e81df0cc81e10dcc63f3840f340795f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-database:20.1.0] /home/nicolas/.gradle/caches/transforms-3/2f9e15c33012fb6ecbb1586fc9aafbf7/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
+138                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+138-->[com.google.firebase:firebase-database:20.1.0] /home/nicolas/.gradle/caches/transforms-3/2f9e15c33012fb6ecbb1586fc9aafbf7/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:32:17-109
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-database:20.1.0] /home/nicolas/.gradle/caches/transforms-3/2f9e15c33012fb6ecbb1586fc9aafbf7/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+140            <meta-data
+140-->[com.google.firebase:firebase-datatransport:18.1.7] /home/nicolas/.gradle/caches/transforms-3/4553e872c2c9aa5c71b35260e22f8950/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+141                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+141-->[com.google.firebase:firebase-datatransport:18.1.7] /home/nicolas/.gradle/caches/transforms-3/4553e872c2c9aa5c71b35260e22f8950/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-datatransport:18.1.7] /home/nicolas/.gradle/caches/transforms-3/4553e872c2c9aa5c71b35260e22f8950/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-installations:17.1.0] /home/nicolas/.gradle/caches/transforms-3/27c941e9b509d51bd7dd59668d0bfb97/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+144                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+144-->[com.google.firebase:firebase-installations:17.1.0] /home/nicolas/.gradle/caches/transforms-3/27c941e9b509d51bd7dd59668d0bfb97/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-installations:17.1.0] /home/nicolas/.gradle/caches/transforms-3/27c941e9b509d51bd7dd59668d0bfb97/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+146        </service>
+147
+148        <provider
+148-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
+149            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+149-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
+150            android:authorities="com.verdadomito.reactnativefirebaseappinitprovider"
+150-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
+151            android:exported="false"
+151-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+152            android:initOrder="99" />
+152-->[:react-native-firebase_app] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
+153
+154        <activity
+154-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-30:75
+155            android:name="com.auth0.react.AuthenticationActivity"
+155-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-66
+156            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboard|keyboardHidden"
+156-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-115
+157            android:exported="false"
+157-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+158            android:launchMode="singleTask"
+158-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-44
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+159-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-72
+160        <activity
+160-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:9-47:20
+161            android:name="com.auth0.react.RedirectActivity"
+161-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-60
+162            android:exported="true" >
+162-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-36
+163            <intent-filter android:autoVerify="true" >
+163-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-46:29
+163-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:17-42
+164                <action android:name="android.intent.action.VIEW" />
+164-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:36:5-57
+164-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:36:13-54
+165
+166                <category android:name="android.intent.category.DEFAULT" />
+166-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:38:5-64
+166-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:38:15-61
+167                <category android:name="android.intent.category.BROWSABLE" />
+167-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:39:5-66
+167-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:39:15-63
+168
+169                <data
+169-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:41:5-134
+170                    android:host="verdadmito.us.auth0.com"
+170-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:41:44-82
+171                    android:pathPrefix="/android/com.verdadomito/callback"
+172                    android:scheme="1Lr7BOV47ReRp1ulLA5VHt6scDnpnEBx" />
+172-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:41:11-43
+173            </intent-filter>
+174        </activity>
+175
+176        <meta-data
+176-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:70
+177            android:name="com.google.android.gms.ads.APPLICATION_ID"
+177-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-69
+178            android:value="ca-app-pub-1460570234418559~3971412136" />
+178-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-67
+179        <meta-data
+179-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-19:37
+180            android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT"
+180-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-81
+181            android:value="false" />
+181-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-34
+182        <meta-data
+182-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-22:36
+183            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
+183-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-83
+184            android:value="true" />
+184-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-33
+185        <meta-data
+185-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-25:36
+186            android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"
+186-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-79
+187            android:value="true" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+187-->[:react-native-google-mobile-ads] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-google-mobile-ads/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-33
+188        <activity
+188-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:50:9-55:43
+189            android:name="com.google.android.gms.ads.AdActivity"
+189-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:51:13-65
+190            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+190-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:52:13-122
+191            android:exported="false"
+191-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:53:13-37
+192            android:theme="@android:style/Theme.Translucent" />
+192-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:54:13-61
 193
-194        <activity
-194-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:70:9-74:43
-195            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
-195-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:71:13-82
-196            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-196-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:72:13-122
-197            android:exported="false" />
-197-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:73:13-37
-198
-199        <provider
-199-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
-200            android:name="androidx.startup.InitializationProvider"
-200-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
-201            android:authorities="com.verdadomito.androidx-startup"
-201-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
-202            android:exported="false" >
-202-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:34:13-37
-203            <meta-data
-203-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
-204                android:name="androidx.work.WorkManagerInitializer"
-204-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
-205                android:value="androidx.startup" />
-205-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
-206            <meta-data
-206-->[androidx.emoji2:emoji2:1.0.0] /home/nicolas/.gradle/caches/transforms-3/cdf1df8eb95d1669dfda57ac382e2ef3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-207                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-207-->[androidx.emoji2:emoji2:1.0.0] /home/nicolas/.gradle/caches/transforms-3/cdf1df8eb95d1669dfda57ac382e2ef3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
-208                android:value="androidx.startup" />
-208-->[androidx.emoji2:emoji2:1.0.0] /home/nicolas/.gradle/caches/transforms-3/cdf1df8eb95d1669dfda57ac382e2ef3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
-209            <meta-data
-209-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/nicolas/.gradle/caches/transforms-3/f95b21e2ddd76307aa54bc969dc4bedb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-210                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-210-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/nicolas/.gradle/caches/transforms-3/f95b21e2ddd76307aa54bc969dc4bedb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-211                android:value="androidx.startup" />
-211-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/nicolas/.gradle/caches/transforms-3/f95b21e2ddd76307aa54bc969dc4bedb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-212        </provider>
-213
-214        <service
-214-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
-215            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-215-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
-216            android:directBootAware="false"
-216-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
-217            android:enabled="@bool/enable_system_alarm_service_default"
-217-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
-218            android:exported="false" />
-218-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
-219        <service
-219-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
-220            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-220-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
-221            android:directBootAware="false"
-221-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
-222            android:enabled="@bool/enable_system_job_service_default"
-222-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
-223            android:exported="true"
-223-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
-224            android:permission="android.permission.BIND_JOB_SERVICE" />
-224-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+194        <provider
+194-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:57:9-62:43
+195            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+195-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:58:13-76
+196            android:authorities="com.verdadomito.mobileadsinitprovider"
+196-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:59:13-73
+197            android:exported="false"
+197-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:60:13-37
+198            android:initOrder="100" />
+198-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:61:13-36
+199
+200        <service
+200-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:64:9-68:43
+201            android:name="com.google.android.gms.ads.AdService"
+201-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:65:13-64
+202            android:enabled="true"
+202-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:66:13-35
+203            android:exported="false" />
+203-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:67:13-37
+204
+205        <activity
+205-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:70:9-74:43
+206            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+206-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:71:13-82
+207            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+207-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:72:13-122
+208            android:exported="false" />
+208-->[com.google.android.gms:play-services-ads-lite:21.4.0] /home/nicolas/.gradle/caches/transforms-3/16bce6df23099dd01e52d8f70e1ae784/transformed/jetified-play-services-ads-lite-21.4.0/AndroidManifest.xml:73:13-37
+209
+210        <provider
+210-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+211            android:name="androidx.startup.InitializationProvider"
+211-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
+212            android:authorities="com.verdadomito.androidx-startup"
+212-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
+213            android:exported="false" >
+213-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:34:13-37
+214            <meta-data
+214-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+215                android:name="androidx.work.WorkManagerInitializer"
+215-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+216                android:value="androidx.startup" />
+216-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+217            <meta-data
+217-->[androidx.emoji2:emoji2:1.0.0] /home/nicolas/.gradle/caches/transforms-3/cdf1df8eb95d1669dfda57ac382e2ef3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+218                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+218-->[androidx.emoji2:emoji2:1.0.0] /home/nicolas/.gradle/caches/transforms-3/cdf1df8eb95d1669dfda57ac382e2ef3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+219                android:value="androidx.startup" />
+219-->[androidx.emoji2:emoji2:1.0.0] /home/nicolas/.gradle/caches/transforms-3/cdf1df8eb95d1669dfda57ac382e2ef3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+220            <meta-data
+220-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/nicolas/.gradle/caches/transforms-3/f95b21e2ddd76307aa54bc969dc4bedb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+221                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+221-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/nicolas/.gradle/caches/transforms-3/f95b21e2ddd76307aa54bc969dc4bedb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+222                android:value="androidx.startup" />
+222-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/nicolas/.gradle/caches/transforms-3/f95b21e2ddd76307aa54bc969dc4bedb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+223        </provider>
+224
 225        <service
-225-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
-226            android:name="androidx.work.impl.foreground.SystemForegroundService"
-226-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+225-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+226            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+226-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
 227            android:directBootAware="false"
-227-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
-228            android:enabled="@bool/enable_system_foreground_service_default"
-228-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+227-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+228            android:enabled="@bool/enable_system_alarm_service_default"
+228-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
 229            android:exported="false" />
-229-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
-230
-231        <receiver
-231-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
-232            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-232-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
-233            android:directBootAware="false"
-233-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
-234            android:enabled="true"
-234-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
-235            android:exported="false" />
-235-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
-236        <receiver
-236-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
-237            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-237-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+229-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+230        <service
+230-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+231            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+231-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+232            android:directBootAware="false"
+232-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+233            android:enabled="@bool/enable_system_job_service_default"
+233-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+234            android:exported="true"
+234-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+235            android:permission="android.permission.BIND_JOB_SERVICE" />
+235-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+236        <service
+236-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+237            android:name="androidx.work.impl.foreground.SystemForegroundService"
+237-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
 238            android:directBootAware="false"
-238-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
-239            android:enabled="false"
-239-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
-240            android:exported="false" >
-240-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
-241            <intent-filter>
-241-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
-242                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-242-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
-242-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
-243                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-243-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
-243-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
-244            </intent-filter>
-245        </receiver>
-246        <receiver
-246-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
-247            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-247-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
-248            android:directBootAware="false"
-248-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
-249            android:enabled="false"
-249-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
-250            android:exported="false" >
-250-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
-251            <intent-filter>
-251-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
-252                <action android:name="android.intent.action.BATTERY_OKAY" />
-252-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
-252-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
-253                <action android:name="android.intent.action.BATTERY_LOW" />
-253-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
-253-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
-254            </intent-filter>
-255        </receiver>
-256        <receiver
-256-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
-257            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-257-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
-258            android:directBootAware="false"
-258-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
-259            android:enabled="false"
-259-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
-260            android:exported="false" >
-260-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
-261            <intent-filter>
-261-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
-262                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-262-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
-262-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
-263                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-263-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
-263-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
-264            </intent-filter>
-265        </receiver>
-266        <receiver
-266-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
-267            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-267-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
-268            android:directBootAware="false"
-268-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
-269            android:enabled="false"
-269-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
-270            android:exported="false" >
-270-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
-271            <intent-filter>
-271-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
-272                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-272-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
-272-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
-273            </intent-filter>
-274        </receiver>
-275        <receiver
-275-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
-276            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-276-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
-277            android:directBootAware="false"
-277-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
-278            android:enabled="false"
-278-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
-279            android:exported="false" >
-279-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
-280            <intent-filter>
-280-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
-281                <action android:name="android.intent.action.BOOT_COMPLETED" />
-281-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:17-79
-281-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:25-76
-282                <action android:name="android.intent.action.TIME_SET" />
-282-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
-282-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
-283                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-283-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
-283-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+238-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+239            android:enabled="@bool/enable_system_foreground_service_default"
+239-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+240            android:exported="false" />
+240-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+241
+242        <receiver
+242-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+243            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+243-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+244            android:directBootAware="false"
+244-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+245            android:enabled="true"
+245-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+246            android:exported="false" />
+246-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+247        <receiver
+247-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+248            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+248-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+249            android:directBootAware="false"
+249-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+250            android:enabled="false"
+250-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+251            android:exported="false" >
+251-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+252            <intent-filter>
+252-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+253                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+253-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+253-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+254                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+254-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+254-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+255            </intent-filter>
+256        </receiver>
+257        <receiver
+257-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+258            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+258-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+259            android:directBootAware="false"
+259-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+260            android:enabled="false"
+260-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+261            android:exported="false" >
+261-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+262            <intent-filter>
+262-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+263                <action android:name="android.intent.action.BATTERY_OKAY" />
+263-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+263-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+264                <action android:name="android.intent.action.BATTERY_LOW" />
+264-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+264-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+265            </intent-filter>
+266        </receiver>
+267        <receiver
+267-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+268            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+268-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+269            android:directBootAware="false"
+269-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+270            android:enabled="false"
+270-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+271            android:exported="false" >
+271-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+272            <intent-filter>
+272-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+273                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+273-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+273-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+274                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+274-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+274-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+275            </intent-filter>
+276        </receiver>
+277        <receiver
+277-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+278            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+278-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+279            android:directBootAware="false"
+279-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+280            android:enabled="false"
+280-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+281            android:exported="false" >
+281-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+282            <intent-filter>
+282-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+283                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+283-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+283-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
 284            </intent-filter>
 285        </receiver>
 286        <receiver
-286-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
-287            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-287-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+286-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+287            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+287-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
 288            android:directBootAware="false"
-288-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
-289            android:enabled="@bool/enable_system_alarm_service_default"
-289-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+288-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+289            android:enabled="false"
+289-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
 290            android:exported="false" >
-290-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+290-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
 291            <intent-filter>
-291-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
-292                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-292-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
-292-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
-293            </intent-filter>
-294        </receiver>
-295        <receiver
-295-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
-296            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-296-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
-297            android:directBootAware="false"
-297-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
-298            android:enabled="true"
-298-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
-299            android:exported="true"
-299-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
-300            android:permission="android.permission.DUMP" >
-300-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
-301            <intent-filter>
-301-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
-302                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-302-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
-302-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
-303            </intent-filter>
-304        </receiver>
-305
-306        <service
-306-->[androidx.room:room-runtime:2.2.5] /home/nicolas/.gradle/caches/transforms-3/4a00325d7395fdf7defd2e14f69cd39e/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
-307            android:name="androidx.room.MultiInstanceInvalidationService"
-307-->[androidx.room:room-runtime:2.2.5] /home/nicolas/.gradle/caches/transforms-3/4a00325d7395fdf7defd2e14f69cd39e/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
-308            android:directBootAware="true"
-308-->[androidx.room:room-runtime:2.2.5] /home/nicolas/.gradle/caches/transforms-3/4a00325d7395fdf7defd2e14f69cd39e/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
-309            android:exported="false" />
-309-->[androidx.room:room-runtime:2.2.5] /home/nicolas/.gradle/caches/transforms-3/4a00325d7395fdf7defd2e14f69cd39e/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
-310
-311        <activity
-311-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
-312            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-312-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
-313            android:excludeFromRecents="true"
-313-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
-314            android:exported="false"
-314-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
-315            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-315-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
-316        <!--
-317            Service handling Google Sign-In user revocation. For apps that do not integrate with
-318            Google Sign-In, this service will never be started.
-319        -->
-320        <service
-320-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
-321            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-321-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
-322            android:exported="true"
-322-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
-323            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-323-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
-324            android:visibleToInstantApps="true" />
-324-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
-325
-326        <activity
-326-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
-327            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-327-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
-328            android:excludeFromRecents="true"
-328-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
-329            android:exported="true"
-329-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
-330            android:launchMode="singleTask"
-330-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
-331            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-331-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
-332            <intent-filter>
-332-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
-333                <action android:name="android.intent.action.VIEW" />
-333-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-65
-333-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:21-62
-334
-335                <category android:name="android.intent.category.DEFAULT" />
-335-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:17-76
-335-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:27-73
-336                <category android:name="android.intent.category.BROWSABLE" />
-336-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-74
-336-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:23-71
-337
-338                <data
-338-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-44
-339                    android:host="firebase.auth"
-340                    android:path="/"
-341                    android:scheme="genericidp" />
-341-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:19-41
-342            </intent-filter>
-343        </activity>
-344        <activity
-344-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
-345            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-345-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
-346            android:excludeFromRecents="true"
-346-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
-347            android:exported="true"
-347-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
-348            android:launchMode="singleTask"
-348-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
-349            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-349-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
-350            <intent-filter>
-350-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
-351                <action android:name="android.intent.action.VIEW" />
-351-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-65
-351-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:21-62
-352
-353                <category android:name="android.intent.category.DEFAULT" />
-353-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:17-76
-353-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:27-73
-354                <category android:name="android.intent.category.BROWSABLE" />
-354-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-74
-354-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:23-71
-355
-356                <data
-356-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-44
-357                    android:host="firebase.auth"
-358                    android:path="/"
-359                    android:scheme="recaptcha" />
-359-->[:react-native-auth0] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/react-native-auth0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:19-41
-360            </intent-filter>
-361        </activity>
-362
-363        <receiver
-363-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:31:9-38:20
-364            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-364-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:32:13-78
-365            android:exported="true"
-365-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:33:13-36
-366            android:permission="com.google.android.c2dm.permission.SEND" >
-366-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:34:13-73
-367            <intent-filter>
-367-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
-368                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-368-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
-368-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
-369            </intent-filter>
-370        </receiver>
-371        <!--
-372             FirebaseMessagingService performs security checks at runtime,
-373             but set to not exported to explicitly avoid allowing another app to call it.
-374        -->
-375        <service
-375-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:44:9-51:19
-376            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-376-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:45:13-82
-377            android:directBootAware="true"
-377-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:46:13-43
-378            android:exported="false" >
-378-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:47:13-37
-379            <intent-filter android:priority="-500" >
-379-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
-380                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-380-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
-380-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
-381            </intent-filter>
-382        </service>
-383
-384        <activity
-384-->[com.google.android.gms:play-services-base:18.0.1] /home/nicolas/.gradle/caches/transforms-3/369c92f887c8acb0b4c0808d11c85ac9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-385            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-385-->[com.google.android.gms:play-services-base:18.0.1] /home/nicolas/.gradle/caches/transforms-3/369c92f887c8acb0b4c0808d11c85ac9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-386            android:exported="false"
-386-->[com.google.android.gms:play-services-base:18.0.1] /home/nicolas/.gradle/caches/transforms-3/369c92f887c8acb0b4c0808d11c85ac9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-387            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-387-->[com.google.android.gms:play-services-base:18.0.1] /home/nicolas/.gradle/caches/transforms-3/369c92f887c8acb0b4c0808d11c85ac9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-388
-389        <provider
-389-->[com.google.firebase:firebase-common:20.2.0] /home/nicolas/.gradle/caches/transforms-3/f0e2d73fc24bd8aab1fc1fcb9869617d/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
-390            android:name="com.google.firebase.provider.FirebaseInitProvider"
-390-->[com.google.firebase:firebase-common:20.2.0] /home/nicolas/.gradle/caches/transforms-3/f0e2d73fc24bd8aab1fc1fcb9869617d/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
-391            android:authorities="com.verdadomito.firebaseinitprovider"
-391-->[com.google.firebase:firebase-common:20.2.0] /home/nicolas/.gradle/caches/transforms-3/f0e2d73fc24bd8aab1fc1fcb9869617d/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
-392            android:directBootAware="true"
-392-->[com.google.firebase:firebase-common:20.2.0] /home/nicolas/.gradle/caches/transforms-3/f0e2d73fc24bd8aab1fc1fcb9869617d/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
-393            android:exported="false"
-393-->[com.google.firebase:firebase-common:20.2.0] /home/nicolas/.gradle/caches/transforms-3/f0e2d73fc24bd8aab1fc1fcb9869617d/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
-394            android:initOrder="100" />
-394-->[com.google.firebase:firebase-common:20.2.0] /home/nicolas/.gradle/caches/transforms-3/f0e2d73fc24bd8aab1fc1fcb9869617d/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
-395
-396        <meta-data
-396-->[com.google.android.gms:play-services-basement:18.1.0] /home/nicolas/.gradle/caches/transforms-3/6f7e9fd65d5e9fbca83fb74688dcf0d9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
-397            android:name="com.google.android.gms.version"
-397-->[com.google.android.gms:play-services-basement:18.1.0] /home/nicolas/.gradle/caches/transforms-3/6f7e9fd65d5e9fbca83fb74688dcf0d9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
-398            android:value="@integer/google_play_services_version" />
-398-->[com.google.android.gms:play-services-basement:18.1.0] /home/nicolas/.gradle/caches/transforms-3/6f7e9fd65d5e9fbca83fb74688dcf0d9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+291-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+292                <action android:name="android.intent.action.BOOT_COMPLETED" />
+292-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:17-79
+292-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:25-76
+293                <action android:name="android.intent.action.TIME_SET" />
+293-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+293-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+294                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+294-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+294-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+295            </intent-filter>
+296        </receiver>
+297        <receiver
+297-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+298            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+298-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+299            android:directBootAware="false"
+299-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+300            android:enabled="@bool/enable_system_alarm_service_default"
+300-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+301            android:exported="false" >
+301-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+302            <intent-filter>
+302-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+303                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+303-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+303-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+304            </intent-filter>
+305        </receiver>
+306        <receiver
+306-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+307            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+307-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+308            android:directBootAware="false"
+308-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+309            android:enabled="true"
+309-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+310            android:exported="true"
+310-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+311            android:permission="android.permission.DUMP" >
+311-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+312            <intent-filter>
+312-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+313                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+313-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+313-->[androidx.work:work-runtime:2.7.0] /home/nicolas/.gradle/caches/transforms-3/d938f0ecfa12e541712db836293d469d/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+314            </intent-filter>
+315        </receiver>
+316
+317        <service
+317-->[androidx.room:room-runtime:2.2.5] /home/nicolas/.gradle/caches/transforms-3/4a00325d7395fdf7defd2e14f69cd39e/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+318            android:name="androidx.room.MultiInstanceInvalidationService"
+318-->[androidx.room:room-runtime:2.2.5] /home/nicolas/.gradle/caches/transforms-3/4a00325d7395fdf7defd2e14f69cd39e/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+319            android:directBootAware="true"
+319-->[androidx.room:room-runtime:2.2.5] /home/nicolas/.gradle/caches/transforms-3/4a00325d7395fdf7defd2e14f69cd39e/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+320            android:exported="false" />
+320-->[androidx.room:room-runtime:2.2.5] /home/nicolas/.gradle/caches/transforms-3/4a00325d7395fdf7defd2e14f69cd39e/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+321
+322        <activity
+322-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
+323            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+323-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
+324            android:excludeFromRecents="true"
+324-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
+325            android:exported="false"
+325-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
+326            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+326-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
+327        <!--
+328            Service handling Google Sign-In user revocation. For apps that do not integrate with
+329            Google Sign-In, this service will never be started.
+330        -->
+331        <service
+331-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
+332            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+332-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
+333            android:exported="true"
+333-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
+334            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+334-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
+335            android:visibleToInstantApps="true" />
+335-->[com.google.android.gms:play-services-auth:20.3.0] /home/nicolas/.gradle/caches/transforms-3/458d2230b6f4f177ad78e4a4f2d2c334/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
+336
+337        <activity
+337-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+338            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+338-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+339            android:excludeFromRecents="true"
+339-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+340            android:exported="true"
+340-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+341            android:launchMode="singleTask"
+341-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+342            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+342-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+343            <intent-filter>
+343-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+344                <action android:name="android.intent.action.VIEW" />
+344-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:36:5-57
+344-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:36:13-54
+345
+346                <category android:name="android.intent.category.DEFAULT" />
+346-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:38:5-64
+346-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:38:15-61
+347                <category android:name="android.intent.category.BROWSABLE" />
+347-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:39:5-66
+347-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:39:15-63
+348
+349                <data
+349-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:41:5-134
+350                    android:host="firebase.auth"
+350-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:41:44-82
+351                    android:path="/"
+351-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:41:83-131
+352                    android:scheme="genericidp" />
+352-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:41:11-43
+353            </intent-filter>
+354        </activity>
+355        <activity
+355-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+356            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+356-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+357            android:excludeFromRecents="true"
+357-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+358            android:exported="true"
+358-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+359            android:launchMode="singleTask"
+359-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+360            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+360-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+361            <intent-filter>
+361-->[com.google.firebase:firebase-auth:21.1.0] /home/nicolas/.gradle/caches/transforms-3/8026f18236ae57fcaf6fa1f6fccd046b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+362                <action android:name="android.intent.action.VIEW" />
+362-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:36:5-57
+362-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:36:13-54
+363
+364                <category android:name="android.intent.category.DEFAULT" />
+364-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:38:5-64
+364-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:38:15-61
+365                <category android:name="android.intent.category.BROWSABLE" />
+365-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:39:5-66
+365-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:39:15-63
+366
+367                <data
+367-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:41:5-134
+368                    android:host="firebase.auth"
+368-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:41:44-82
+369                    android:path="/"
+369-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:41:83-131
+370                    android:scheme="recaptcha" />
+370-->/home/nicolas/Documentos/Verdad-o-Mito/game/android/app/src/main/AndroidManifest.xml:41:11-43
+371            </intent-filter>
+372        </activity>
+373
+374        <receiver
+374-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:31:9-38:20
+375            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+375-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:32:13-78
+376            android:exported="true"
+376-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:33:13-36
+377            android:permission="com.google.android.c2dm.permission.SEND" >
+377-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:34:13-73
+378            <intent-filter>
+378-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+379                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+379-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+379-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+380            </intent-filter>
+381        </receiver>
+382        <!--
+383             FirebaseMessagingService performs security checks at runtime,
+384             but set to not exported to explicitly avoid allowing another app to call it.
+385        -->
+386        <service
+386-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:44:9-51:19
+387            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+387-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:45:13-82
+388            android:directBootAware="true"
+388-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:46:13-43
+389            android:exported="false" >
+389-->[com.google.firebase:firebase-messaging:23.1.1] /home/nicolas/.gradle/caches/transforms-3/b1c70f3bdfc88ca789e3b4163a51fec4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:47:13-37
+390            <intent-filter android:priority="-500" >
+390-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
+391                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+391-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
+391-->[:react-native-firebase_messaging] /home/nicolas/Documentos/Verdad-o-Mito/game/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
+392            </intent-filter>
+393        </service>
+394
+395        <activity
+395-->[com.google.android.gms:play-services-base:18.0.1] /home/nicolas/.gradle/caches/transforms-3/369c92f887c8acb0b4c0808d11c85ac9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+396            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+396-->[com.google.android.gms:play-services-base:18.0.1] /home/nicolas/.gradle/caches/transforms-3/369c92f887c8acb0b4c0808d11c85ac9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+397            android:exported="false"
+397-->[com.google.android.gms:play-services-base:18.0.1] /home/nicolas/.gradle/caches/transforms-3/369c92f887c8acb0b4c0808d11c85ac9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+398            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+398-->[com.google.android.gms:play-services-base:18.0.1] /home/nicolas/.gradle/caches/transforms-3/369c92f887c8acb0b4c0808d11c85ac9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
 399
-400        <service
-400-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/nicolas/.gradle/caches/transforms-3/3e5e6cf87f2db28c0e10c82f316df1bd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
-401            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-401-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/nicolas/.gradle/caches/transforms-3/3e5e6cf87f2db28c0e10c82f316df1bd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
-402            android:exported="false" >
-402-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/nicolas/.gradle/caches/transforms-3/3e5e6cf87f2db28c0e10c82f316df1bd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
-403            <meta-data
-403-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/nicolas/.gradle/caches/transforms-3/3e5e6cf87f2db28c0e10c82f316df1bd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
-404                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-404-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/nicolas/.gradle/caches/transforms-3/3e5e6cf87f2db28c0e10c82f316df1bd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
-405                android:value="cct" />
-405-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/nicolas/.gradle/caches/transforms-3/3e5e6cf87f2db28c0e10c82f316df1bd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
-406        </service>
-407        <service
-407-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/nicolas/.gradle/caches/transforms-3/ae4de5225b419819ca8f19c475cee350/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
-408            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-408-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/nicolas/.gradle/caches/transforms-3/ae4de5225b419819ca8f19c475cee350/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
-409            android:exported="false"
-409-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/nicolas/.gradle/caches/transforms-3/ae4de5225b419819ca8f19c475cee350/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
-410            android:permission="android.permission.BIND_JOB_SERVICE" >
-410-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/nicolas/.gradle/caches/transforms-3/ae4de5225b419819ca8f19c475cee350/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
-411        </service>
-412
-413        <receiver
-413-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/nicolas/.gradle/caches/transforms-3/ae4de5225b419819ca8f19c475cee350/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
-414            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-414-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/nicolas/.gradle/caches/transforms-3/ae4de5225b419819ca8f19c475cee350/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
-415            android:exported="false" />
-415-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/nicolas/.gradle/caches/transforms-3/ae4de5225b419819ca8f19c475cee350/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
-416
-417        <activity
-417-->[io.agora.rtc:full-screen-sharing:4.1.0-1] /home/nicolas/.gradle/caches/transforms-3/7515730c2b18712136866aa29237b83e/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:10:9-13:63
-418            android:name="io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenCaptureAssistantActivity"
-418-->[io.agora.rtc:full-screen-sharing:4.1.0-1] /home/nicolas/.gradle/caches/transforms-3/7515730c2b18712136866aa29237b83e/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:10:19-89
-419            android:configChanges="screenSize|orientation"
-419-->[io.agora.rtc:full-screen-sharing:4.1.0-1] /home/nicolas/.gradle/caches/transforms-3/7515730c2b18712136866aa29237b83e/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:11:13-59
-420            android:screenOrientation="fullUser"
-420-->[io.agora.rtc:full-screen-sharing:4.1.0-1] /home/nicolas/.gradle/caches/transforms-3/7515730c2b18712136866aa29237b83e/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:12:13-49
-421            android:theme="@android:style/Theme.Translucent" />
-421-->[io.agora.rtc:full-screen-sharing:4.1.0-1] /home/nicolas/.gradle/caches/transforms-3/7515730c2b18712136866aa29237b83e/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:13:13-61
-422
-423        <service
-423-->[io.agora.rtc:full-screen-sharing:4.1.0-1] /home/nicolas/.gradle/caches/transforms-3/7515730c2b18712136866aa29237b83e/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:15:9-18:19
-424            android:name="io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenSharingService"
-424-->[io.agora.rtc:full-screen-sharing:4.1.0-1] /home/nicolas/.gradle/caches/transforms-3/7515730c2b18712136866aa29237b83e/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:16:13-73
-425            android:foregroundServiceType="mediaProjection" >
-425-->[io.agora.rtc:full-screen-sharing:4.1.0-1] /home/nicolas/.gradle/caches/transforms-3/7515730c2b18712136866aa29237b83e/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:17:13-60
-426        </service>
-427    </application>
-428
-429</manifest>
+400        <provider
+400-->[com.google.firebase:firebase-common:20.2.0] /home/nicolas/.gradle/caches/transforms-3/f0e2d73fc24bd8aab1fc1fcb9869617d/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+401            android:name="com.google.firebase.provider.FirebaseInitProvider"
+401-->[com.google.firebase:firebase-common:20.2.0] /home/nicolas/.gradle/caches/transforms-3/f0e2d73fc24bd8aab1fc1fcb9869617d/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+402            android:authorities="com.verdadomito.firebaseinitprovider"
+402-->[com.google.firebase:firebase-common:20.2.0] /home/nicolas/.gradle/caches/transforms-3/f0e2d73fc24bd8aab1fc1fcb9869617d/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+403            android:directBootAware="true"
+403-->[com.google.firebase:firebase-common:20.2.0] /home/nicolas/.gradle/caches/transforms-3/f0e2d73fc24bd8aab1fc1fcb9869617d/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+404            android:exported="false"
+404-->[com.google.firebase:firebase-common:20.2.0] /home/nicolas/.gradle/caches/transforms-3/f0e2d73fc24bd8aab1fc1fcb9869617d/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+405            android:initOrder="100" />
+405-->[com.google.firebase:firebase-common:20.2.0] /home/nicolas/.gradle/caches/transforms-3/f0e2d73fc24bd8aab1fc1fcb9869617d/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+406
+407        <meta-data
+407-->[com.google.android.gms:play-services-basement:18.1.0] /home/nicolas/.gradle/caches/transforms-3/6f7e9fd65d5e9fbca83fb74688dcf0d9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+408            android:name="com.google.android.gms.version"
+408-->[com.google.android.gms:play-services-basement:18.1.0] /home/nicolas/.gradle/caches/transforms-3/6f7e9fd65d5e9fbca83fb74688dcf0d9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+409            android:value="@integer/google_play_services_version" />
+409-->[com.google.android.gms:play-services-basement:18.1.0] /home/nicolas/.gradle/caches/transforms-3/6f7e9fd65d5e9fbca83fb74688dcf0d9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+410
+411        <service
+411-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/nicolas/.gradle/caches/transforms-3/3e5e6cf87f2db28c0e10c82f316df1bd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+412            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+412-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/nicolas/.gradle/caches/transforms-3/3e5e6cf87f2db28c0e10c82f316df1bd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+413            android:exported="false" >
+413-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/nicolas/.gradle/caches/transforms-3/3e5e6cf87f2db28c0e10c82f316df1bd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+414            <meta-data
+414-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/nicolas/.gradle/caches/transforms-3/3e5e6cf87f2db28c0e10c82f316df1bd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+415                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+415-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/nicolas/.gradle/caches/transforms-3/3e5e6cf87f2db28c0e10c82f316df1bd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+416                android:value="cct" />
+416-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/nicolas/.gradle/caches/transforms-3/3e5e6cf87f2db28c0e10c82f316df1bd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+417        </service>
+418        <service
+418-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/nicolas/.gradle/caches/transforms-3/ae4de5225b419819ca8f19c475cee350/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+419            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+419-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/nicolas/.gradle/caches/transforms-3/ae4de5225b419819ca8f19c475cee350/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+420            android:exported="false"
+420-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/nicolas/.gradle/caches/transforms-3/ae4de5225b419819ca8f19c475cee350/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+421            android:permission="android.permission.BIND_JOB_SERVICE" >
+421-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/nicolas/.gradle/caches/transforms-3/ae4de5225b419819ca8f19c475cee350/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+422        </service>
+423
+424        <receiver
+424-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/nicolas/.gradle/caches/transforms-3/ae4de5225b419819ca8f19c475cee350/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+425            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+425-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/nicolas/.gradle/caches/transforms-3/ae4de5225b419819ca8f19c475cee350/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+426            android:exported="false" />
+426-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/nicolas/.gradle/caches/transforms-3/ae4de5225b419819ca8f19c475cee350/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+427
+428        <activity
+428-->[io.agora.rtc:full-screen-sharing:4.1.0-1] /home/nicolas/.gradle/caches/transforms-3/7515730c2b18712136866aa29237b83e/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:10:9-13:63
+429            android:name="io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenCaptureAssistantActivity"
+429-->[io.agora.rtc:full-screen-sharing:4.1.0-1] /home/nicolas/.gradle/caches/transforms-3/7515730c2b18712136866aa29237b83e/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:10:19-89
+430            android:configChanges="screenSize|orientation"
+430-->[io.agora.rtc:full-screen-sharing:4.1.0-1] /home/nicolas/.gradle/caches/transforms-3/7515730c2b18712136866aa29237b83e/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:11:13-59
+431            android:screenOrientation="fullUser"
+431-->[io.agora.rtc:full-screen-sharing:4.1.0-1] /home/nicolas/.gradle/caches/transforms-3/7515730c2b18712136866aa29237b83e/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:12:13-49
+432            android:theme="@android:style/Theme.Translucent" />
+432-->[io.agora.rtc:full-screen-sharing:4.1.0-1] /home/nicolas/.gradle/caches/transforms-3/7515730c2b18712136866aa29237b83e/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:13:13-61
+433
+434        <service
+434-->[io.agora.rtc:full-screen-sharing:4.1.0-1] /home/nicolas/.gradle/caches/transforms-3/7515730c2b18712136866aa29237b83e/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:15:9-18:19
+435            android:name="io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenSharingService"
+435-->[io.agora.rtc:full-screen-sharing:4.1.0-1] /home/nicolas/.gradle/caches/transforms-3/7515730c2b18712136866aa29237b83e/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:16:13-73
+436            android:foregroundServiceType="mediaProjection" >
+436-->[io.agora.rtc:full-screen-sharing:4.1.0-1] /home/nicolas/.gradle/caches/transforms-3/7515730c2b18712136866aa29237b83e/transformed/jetified-full-screen-sharing-4.1.0-1/AndroidManifest.xml:17:13-60
+437        </service>
+438    </application>
+439
+440</manifest>

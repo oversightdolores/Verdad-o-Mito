@@ -12,13 +12,14 @@ const SearchQuestions = ({navigation}) => {
     const question = useSelector((state) => state.question);
     const [activo, setActivo] = useState(isFocused)
     console.log(isFocused ? 'Estoy activo' : 'Estoy inactivo')
+    console.log(question)
     useEffect(() => {
-            if(isFocused){
-
-                dispatch(getQuestion());
-            }
-
         
+        
+        if(isFocused){
+
+            dispatch(getQuestion());
+        }
       }, [isFocused]);
     
       useEffect(() => {
@@ -28,6 +29,7 @@ const SearchQuestions = ({navigation}) => {
           }, 2000);
           return () => clearTimeout(timeoutId);
         }
+        
     
       }, [question, navigation]);
 

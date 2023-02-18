@@ -42,6 +42,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './src/pages/HomeScreen';
 import Profile from './src/pages/Profile';
 import SearchQuestions from './src/pages/SearchQuestions';
+import config from './autho-configuration'
 
 function App() {
   /*   const isDarkMode = useColorScheme() === 'dark';
@@ -52,19 +53,20 @@ function App() {
     const adUnitId =  'ca-app-pub-1460570234418559/2902583485';
     const Stack = createNativeStackNavigator();
   return (
-    <Auth0Provider domain={"verdadomito.us.auth0.com"} clientId={"ugf7ZQ64ZPWRDlZl1U7L2zdXlb36Jb1i"}>
+    <Auth0Provider domain={config.domain} clientId={config.clientId}>
       <NavigationContainer>
     <Provider store={store}>
       <StatusBar backgroundColor="white" barStyle="dark-content" />
       <SafeAreaView style={{ flex: 1, }}>
 
-      <Stack.Navigator>
+       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen}  options={{ headerShown: false }} />
         <Stack.Screen name="Game" component={Game}  options={{ headerShown: false }}  />
         <Stack.Screen name="Profile" component={Profile}  options={{ headerShown: false }} />
         <Stack.Screen name="Search" component={SearchQuestions}  options={{ headerShown: false }} />
+        <Stack.Screen name="Login" component={Login}  options={{ headerShown: false }} />
       </Stack.Navigator>
-        
+         
       <View style={{alignItems: 'center'}} > 
         <BannerAd
       unitId={adUnitId}

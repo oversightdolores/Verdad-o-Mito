@@ -3,25 +3,21 @@ const {User} = require('../db');
 
 
 const registerController = async(newUser) => {
-  console.log(newUser)
-  const { email, password} = newUser ;
+  console.log('/',newUser)
+  const { user_id, email, nickname, picture, name} = newUser ;
     try {
-        const [user, created] = await User.findOrCreate({
-          where: {
-            email: email
-          },
-          defaults: {
+        const user = await User.create({
+            user_id: user_id,
+            name: name,
             email: email,
-            password: password
-          }
+            nickname: nickname,
+            picture: picture
+          
         });
-        if (created) {
-          return{ message: 'User created successfully',user };
-        } else {
-          return{ message: 'User already exists' };
-        }
+       
+        return user
       } catch (error) {
-        return{ message: 'An error occurred' };
+        throw new Error
       }
      
 };

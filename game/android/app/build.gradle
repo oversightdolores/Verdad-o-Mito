@@ -99,7 +99,7 @@ android {
         applicationId "com.verdadomito"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        manifestPlaceholders = [auth0Domain: "verdadomito.us.auth0.com", auth0Scheme: "ugf7ZQ64ZPWRDlZl1U7L2zdXlb36Jb1i"]
+        manifestPlaceholders = [auth0Domain: "verdadmito.us.auth0.com", auth0Scheme: "1Lr7BOV47ReRp1ulLA5VHt6scDnpnEBx"]
         versionCode 1
         versionName "1.0"
     }

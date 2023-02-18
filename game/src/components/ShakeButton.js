@@ -13,14 +13,14 @@ const ShakeButton = ({ response }) => {
 
     <TouchableOpacity >
     <Animatable.View animation={'shake'} style={[styles.incorrecto]}>
-     <Text style={{fontWeight: '700', fontSize: 15}}>{response}</Text>
+     <Text style={{fontWeight: '700', fontSize: 15, color:'tomato'}}>{response}</Text>
     </Animatable.View>
   </TouchableOpacity>
 :
 response === 'Correcto!' ?
 <TouchableOpacity >
-    <Animatable.View animation={'shake'} style={[styles.correcto]}>
-     <Text style={{fontWeight: '700', fontSize: 15}}>{response}</Text>
+    <Animatable.View animation={'tada'} style={[styles.correcto]}>
+     <Text style={{fontWeight: '700', fontSize: 15, color: 'green'}}>{response}</Text>
     </Animatable.View>
   </TouchableOpacity>
   :
@@ -32,7 +32,10 @@ null
 
 const styles = StyleSheet.create({
   incorrecto: {
-    backgroundColor: 'tomato',
+ 
+    backgroundColor: 'none',
+    borderColor: 'tomato',
+    borderWidth: 5,
     borderRadius: 10,
     width:200,
     padding: 16,
@@ -42,7 +45,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center'
   },
   correcto: {
-    backgroundColor: 'green',
+    backgroundColor: 'none',
+    borderColor: 'green',
+    borderWidth: 5,
     borderRadius: 10,
     width: 200,
     padding: 16,
