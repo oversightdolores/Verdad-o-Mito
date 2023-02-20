@@ -1,5 +1,5 @@
 import { View, Text,Button, Image, TouchableOpacity, StyleSheet, Alert, TouchableWithoutFeedback } from 'react-native'
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import {useAuth0, } from 'react-native-auth0';
 import  * as Animatable from 'react-native-animatable'
 import BtnMenu from '../components/BtnMenu';
@@ -20,7 +20,13 @@ export default function HomeScreen({navigation}) {
     setShowMenu(false)
   }
   console.log(user)
-  !user ? navigation.navigate('Login'): null
+  useEffect(() => {
+    
+    !user ? navigation.navigate('Login'): null
+  
+   
+  }, [user])
+  
   return (
 
     <TouchableWithoutFeedback onPress={() => hideMenu()}>
@@ -68,7 +74,7 @@ export default function HomeScreen({navigation}) {
    </Animatable.View>
 </TouchableOpacity>
     
-      <TouchableOpacity onPress={() => onLogout} >
+      <TouchableOpacity onPress={() => onLogout()} >
    <Animatable.View animation={'zoomIn'} style={[styles.btn_mito]}>
    <Text style={{fontWeight: '700', fontSize: 10}}> Log Out</Text>
    </Animatable.View>

@@ -1,26 +1,58 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
+
 
 import React, {useEffect} from 'react';
 import {Alert, Button, StyleSheet, Text, View} from 'react-native';
 import {Image} from 'react-native-animatable';
 import {useAuth0, Auth0Provider} from 'react-native-auth0';
+import { useNavigation } from '@react-navigation/native';
+import io from 'socket.io-client';
+import {useDispatch} from 'react-redux';
+import {createUser} from '../redux/action';
 
 
-const Login = ({navigation}) => {
+const Login = () => {
+  const dispatch = useDispatch()
+  const navigation = useNavigation()
   const {authorize, clearSession, user, getCredentials, error} = useAuth0();
+
+
+
+
+ const socket = io('http://192.168.1.16:5174');
+
+socket.on('connect', () => {
+  console.log('Connected to server');
+});
+
+socket.on('disconnect', () => {
+  console.log('Disconnected from server');
+});
+
+// emitir eventos
+socket.emit('join', user);
+
+// escuchar eventos
+socket.on('new-message', (message) => {
+  console.log('Received new message:', message);
+});
+
+ 
+
+  const loggedIn = user !== undefined && user !== null;
+ 
+
+  useEffect(() => {
+    if (loggedIn) {
+    dispatch(createUser(user))
+      navigation.navigate('Home');
+    }
+  }, [loggedIn]);
 
   const onLogin = async () => {
     await authorize({scope: 'openid profile email'});
     
   };
 
-  const loggedIn = user !== undefined && user !== null;
 console.log(user)
   const onLogout = async () => {
     await clearSession(/* {federated: true}, {localStorageOnly: false} */);
@@ -29,11 +61,9 @@ console.log(user)
 
   return (
     <View style={styles.container}>
-      <Image style={{width:100, height: 100, borderRadius: 100}} source={{uri:(user?.picture)}} />
       <Text style={styles.header}> Auth0Sample - Login </Text>
       {user && <Text style={styles.header}>You are logged in as {user.name}</Text>}
       {!user && <Text style={styles.header}>You are not logged in</Text>}
-      {user ? navigation.navigate('Home'): null}
       <Button
         onPress={loggedIn ? onLogout : onLogin}
         title={loggedIn ? 'Log Out' : 'Log In'}

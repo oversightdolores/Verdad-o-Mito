@@ -14,7 +14,7 @@ const FormQuestion = () => {
     const handleQuest = () => {
     
       
-            axios.post('http://192.168.1.16:5173/question', quest)
+            axios.post('http://192.168.1.16:5174/question', quest)
             .then(response => {
                 console.log(response.data);
               })
@@ -29,12 +29,12 @@ const FormQuestion = () => {
               
     }
   return (
-    <View style={{width: '100%', alignItems: 'center'}}>
+    <View style={{flex: 1,width: '100%', alignItems: 'center', backgroundColor: 'gray'}}>
          <Text>Question:</Text>
-      <TextInput value={quest.question} onChangeText={text => setQuest({...quest, question: text})} />
+      <TextInput style={{backgroundColor:'#fff', width:'100%',color:'#000'}} value={quest.question} onChangeText={text => setQuest({...quest, question: `¿${text}?`})} />
 
       <Text>Description:</Text>
-      <TextInput value={quest.description} onChangeText={text => setQuest({...quest, description: text})} />
+      <TextInput style={{backgroundColor:'#fff', width:'100%',color:'#000'}} value={quest.description} onChangeText={text => setQuest({...quest, description: text})} />
 
       <Text>Response:</Text>
       <Picker

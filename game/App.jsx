@@ -1,28 +1,14 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
 
 import React from 'react';
 import {
   SafeAreaView,
   ScrollView,
   StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
+
+  
   View,
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
 import SelectQuestions from './src/components/SelectQuestions';
 import Rulete from './src/components/Rulete';
 import SlideRight from './src/components/SlideRight';
@@ -34,15 +20,14 @@ import {useAuth0, Auth0Provider} from 'react-native-auth0';
 import { BannerAd, BannerAdSize, TestIds } from 'react-native-google-mobile-ads';
 import Login from './src/pages/Login';
 import Register from './src/pages/Register'
-import Index from './src/components/index.android'
-import Animatable from './src/components/animatable';
-import CoinAnimation from './src/components/Coins';
+
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './src/pages/HomeScreen';
 import Profile from './src/pages/Profile';
 import SearchQuestions from './src/pages/SearchQuestions';
 import config from './autho-configuration'
+
 
 function App() {
   /*   const isDarkMode = useColorScheme() === 'dark';
@@ -52,6 +37,7 @@ function App() {
     }; */
     const adUnitId =  'ca-app-pub-1460570234418559/2902583485';
     const Stack = createNativeStackNavigator();
+    const {user} = useAuth0()
   return (
     <Auth0Provider domain={config.domain} clientId={config.clientId}>
       <NavigationContainer>
@@ -65,6 +51,8 @@ function App() {
         <Stack.Screen name="Profile" component={Profile}  options={{ headerShown: false }} />
         <Stack.Screen name="Search" component={SearchQuestions}  options={{ headerShown: false }} />
         <Stack.Screen name="Login" component={Login}  options={{ headerShown: false }} />
+        <Stack.Screen name="Question" component={FormQuestion}  options={{ headerShown: false }} />
+
       </Stack.Navigator>
          
       <View style={{alignItems: 'center'}} > 

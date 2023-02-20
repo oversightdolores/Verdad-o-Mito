@@ -1,5 +1,5 @@
 import axios from "axios";
-import { GET_QUESTION, GET_QUESTION_ERROR } from "./constants";
+import { GET_QUESTION, GET_ERROR, GET_MESSAGE, GET_USER } from "./constants";
 
 
 
@@ -15,9 +15,43 @@ export const getQuestion = () => {
           });
         } catch (error) {
           dispatch({
-            type: GET_QUESTION_ERROR,
+            type: GET_ERROR,
             payload: error,
           });
         }
       };
+}
+
+export const createUser = (user) => {
+  return async (dispatch) => {
+    try {
+     const newUser = await axios.post('http://192.168.1.16:5174/register',user)
+     dispatch({
+      type: GET_MESSAGE,
+      payload: newUser.data,
+    });
+  } catch (error) {
+    dispatch({
+      type: GET_ERROR,
+      payload: error,
+    });
+  }
+}
+}
+
+export const getUser = (sub) => {
+  return async (dispatch) => {
+    try {
+     const user = await axios.post('http://192.168.1.16:5174/register',sub)
+     dispatch({
+      type: GET_USER,
+      payload: user.data,
+    });
+  } catch (error) {
+    dispatch({
+      type: GET_ERROR,
+      payload: error,
+    });
+  }
+}
 }

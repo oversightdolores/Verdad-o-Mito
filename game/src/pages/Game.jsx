@@ -41,7 +41,7 @@ const Game = () => {
   useEffect(() => {
     const ad = RewardedAd.createForAdRequest(adUnitId, {
       requestNonPersonalizedAdsOnly: true,
-      keywords: ['fashion', 'clothing'],
+      keywords: ['gaming', 'clothing'],
     });
 
     const unsubscribeLoaded = ad.addAdEventListener(RewardedAdEventType.LOADED, () => {
@@ -95,28 +95,43 @@ const Game = () => {
             console.log('Failed to load the sound', error);
         }
     });
-
+    const tempSound = new Sound(require('../sounds/temp.mp3'), Sound.MAIN_BUNDLE, (error) => {
+      if (error) {
+          console.log('Failed to load the sound', error);
+      }
+  });
 
     useEffect(() => {
         timerRef.current = setInterval(() => {
+          if (timer === 10) {
+            // Comienza la reproducción en bucle del audio
+            tempSound.setNumberOfLoops(-1);
+            tempSound.play();
+          }
             setTimer(timer - 1);
         }, 1000);
+
+      if(timer === 0){
+
+        tempSound.stop();
+        console.log(timer)
+      }
+      
         dispatch(getQuestion)
         return () => {
             clearInterval(timerRef.current);
         };
     }, [timer, timerRef]);
-
     useEffect(() => {
-        if (timer === 0) {
-            incorrectSound.setVolume(0.5)
-            incorrectSound.play();
-            setDisabled({ ...disabled, mito: true, verdad: true })
-            clearInterval(timerRef.current)
-            setResponse('Incorrecto!')
+      if (timer === 0) {
+        incorrectSound.setVolume(0.5)
+        incorrectSound.play();
+        setDisabled({ ...disabled, mito: true, verdad: true })
+        clearInterval(timerRef.current)
+        setResponse('Incorrecto!')
 
         }
-    }, [ dispatch,timer]);
+    }, [ dispatch,timer,timerRef]);
     //generame una funcion de carga
 
     const handleVerdad = () => {

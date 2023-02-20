@@ -1,11 +1,12 @@
 
-import {GET_QUESTION, GET_QUESTION_ERROR} from './constants'
+import {GET_QUESTION, GET_ERROR, GET_MESSAGE, GET_USER} from './constants'
 
 
 
 const initialState ={
     question: [],
     user: {},
+    message: {},
     error: {}
 
 }
@@ -18,10 +19,20 @@ const questionReducer = (state = initialState, action) => {
         ...state,
         question: action.payload,
       };
-      case GET_QUESTION_ERROR:
+      case GET_ERROR:
         return {
             ...state,
             error: action.payload
+        };
+        case GET_USER:
+        return {
+            ...state,
+            user: action.payload
+        };
+      case GET_MESSAGE:
+        return {
+            ...state,
+            message: action.payload
         }
     default:
       return state;

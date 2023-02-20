@@ -42,9 +42,16 @@ console.log(showMenu)
    <Text style={{color: '#000'}}>Perfil</Text>
    </Animatable.View>
 </TouchableOpacity>
+<TouchableOpacity onPress={() => navigation.navigate('Question')} >
+   <Animatable.View animation={'zoomIn'} style={[styles.btn_mito]}>
+   
+   <Text style={{color: '#000'}}>crear mitos</Text>
+   </Animatable.View>
+</TouchableOpacity>
 
           <Text style={{ color: '#000', padding: 10 }}>Menu Item 3</Text>
         </Animatable.View>
+        
    
       )}
     </View>
@@ -149,12 +156,12 @@ const styles = StyleSheet.create({
       },
       btn_mito: {
        
-     
+        borderBottomWidth: .5,
       padding: 5,
-      width: 50,
+      width: 100,
       flexDirection: 'row',
       alignItems: 'center',
-      justifyContent: 'center'
+     
       },
       btn_option: {
        
