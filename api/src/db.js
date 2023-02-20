@@ -9,7 +9,6 @@ const {
 } = process.env;
 
 let sequelize =
-/* 
   process.env.NODE_ENV === "production"
     ? new Sequelize({
         database: PG_DATABASE,
@@ -33,7 +32,7 @@ let sequelize =
         },
         ssl: true,
       })
-    : */ new Sequelize(
+    : new Sequelize(
         `postgresql://${PG_USER}:${PG_PASSWORD}@${PG_HOST}:${PG_PORT}/${PG_DATABASE}`,
         { logging: false, native: false }
       );
