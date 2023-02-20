@@ -22,17 +22,17 @@ const app = require('./src/app.js');
 const { conn } = require('./src/db.js');
 const http = require('http');
 
-const server = http.createServer(app);
+/* const server = http.createServer(app);
 const io = require('socket.io')(server);
 
 io.on('connection', (user) => {
   console.log('A user connected', user);
   // implementa aquí la lógica para manejar las conexiones de los usuarios
-});
+}); */
 
 // Syncing all the models at once.
 conn.sync({ force: false}).then(() => {
-  server.listen(5174, () => {
+  app.listen(5174, () => {
     console.log(`%s listening at 5174`); // eslint-disable-line no-console
   });
 });
