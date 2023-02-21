@@ -32,7 +32,7 @@ io.on('connection', (user) => {
 }); */
 
 // Syncing all the models at once.
-conn.sync({ force: true}).then(() => {
+conn.sync({ force: false}).then(() => {
   app.listen(5174, () => {
     console.log(`%s listening at 5174`); // eslint-disable-line no-console
   });
