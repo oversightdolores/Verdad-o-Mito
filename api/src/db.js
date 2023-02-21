@@ -8,7 +8,10 @@ const {
   PG_USER, PG_PASSWORD, PG_HOST, PG_PORT, PG_DATABASE, URL_DATABASE
 } = process.env;
 
-let sequelize = URL_DATABASE
+let sequelize =  new Sequelize(`${URL_DATABASE}`, {
+  logging: false, // set to console.log to see the raw SQL queries
+  native: false, // lets Sequelize know we can use pg-native for ~30% more speed
+})
   /* process.env.NODE_ENV === "production"
     ? new Sequelize({
         database: PG_DATABASE,
