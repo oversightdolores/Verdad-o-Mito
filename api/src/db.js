@@ -5,11 +5,11 @@ const fs = require('fs');
 const path = require('path');
 
 const {
-  PG_USER, PG_PASSWORD, PG_HOST, PG_PORT, PG_DATABASE
+  PG_USER, PG_PASSWORD, PG_HOST, PG_PORT, PG_DATABASE, URL_DATABASE
 } = process.env;
 
-let sequelize =
-  process.env.NODE_ENV === "production"
+let sequelize = URL_DATABASES
+  /* process.env.NODE_ENV === "production"
     ? new Sequelize({
         database: PG_DATABASE,
         dialect: "postgres",
@@ -36,7 +36,7 @@ let sequelize =
         `postgresql://${PG_USER}:${PG_PASSWORD}@${PG_HOST}:${PG_PORT}/${PG_DATABASE}`,
         { logging: false, native: false }
       );
-
+ */
 /* const sequelize = new Sequelize(`postgresql://${PG_USER}:${PG_PASSWORD}@${PG_HOST}:${PG_PORT}/${PG_DATABASE}`, {
   logging: false, // set to console.log to see the raw SQL queries
   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
