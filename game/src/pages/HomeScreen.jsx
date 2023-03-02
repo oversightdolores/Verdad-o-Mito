@@ -1,100 +1,72 @@
-import { View, Text,Button, Image, TouchableOpacity, StyleSheet, Alert, TouchableWithoutFeedback } from 'react-native'
-import React, {useEffect, useState} from 'react'
-import {useAuth0, } from 'react-native-auth0';
-import  * as Animatable from 'react-native-animatable'
+
+import React,{useEffect,useState} from 'react';
+import {Alert,FlatList,Image,StyleSheet,Text,TouchableOpacity,TouchableWithoutFeedback,View} from 'react-native';
+import * as Animatable from 'react-native-animatable';
+import {useAuth0} from 'react-native-auth0';
+import {useDispatch,useSelector} from 'react-redux';
+import {io} from "socket.io-client";
 import BtnMenu from '../components/BtnMenu';
+import HeaderBar from '../components/HeaderBar';
+import PartidasList from '../components/PartidasList';
+import {setPartidaSeleccionada} from '../redux/reducer';
+
 
 
 export default function HomeScreen({navigation}) {
-  const {authorize, clearSession, user, getCredentials, error} = useAuth0();
+  const socket = io('http://192.168.1.16:3000/');
+ const partidas = useSelector(state => state.partidas)
+ const partidasSelec = useSelector(state => state.setPartidaSeleccionada)
+ const user = useSelector(state => state.user)
+ const usuarios = useSelector(state => state.users)
+ const dispatch = useDispatch()
+ const {authorize, clearSession, getCredentials, error} = useAuth0();
   const [showMenu, setShowMenu] = useState(false);
-
   const [coin, setCoin] = useState(500)
   const [life, setLife] = useState(5)
   const [rewaded, setRewaded] = useState(50)
+  const[msg, setMsg] = useState('')
+  const [usr, setUsr] = useState({})
   const onLogout = async () => {
     await clearSession(/* {federated: true}, {localStorageOnly: false} */);
   };
+  
+
+console.log(partidasSelec)   
 
   const hideMenu =()=> {
     setShowMenu(false)
   }
-  console.log(user)
-  useEffect(() => {
-    
-    !user ? navigation.navigate('Login'): null
+ 
   
-   
-  }, [user])
   
   return (
 
     <TouchableWithoutFeedback onPress={() => hideMenu()}>
     <View tyle={styles.container}>
-      <Text>HomeScreen</Text>
-    <View style={styles.cont_header}>
-      <TouchableOpacity onPress={() => navigation.navigate('Search')} >
-   <Animatable.View animation={'zoomIn'} style={[styles.btn_mito]}>
-   <Image
-    source={{uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png'}}
-    style={{height:20, width:20}}
-    />
-   <Text>{life}</Text>
-   </Animatable.View>
-</TouchableOpacity>
+        <HeaderBar style={{zIndex: 999 }}/>
     
-      <TouchableOpacity onPress={() => onLogout} >
-   <Animatable.View animation={'zoomIn'} style={[styles.btn_mito]}>
-    <Image
-    source={{uri: 'https://images.emojiterra.com/google/android-10/512px/1f48e.png'}}
-    style={{height:20, width:20}}
-    />
-   <Text>{rewaded}</Text>
-   </Animatable.View>
-</TouchableOpacity>
 
 
-<TouchableOpacity onPress={() => navigation.dispatch(navigation.navigate('Profile'))} >
-   <Animatable.View animation={'zoomIn'} style={[styles.btn_mito]}>
+<Text style={{color: '#000'}}>
+  {msg}
+  </Text>
+<TouchableOpacity onPress={() => navigation.dispatch(navigation.navigate('Tienda'))} >
+   <Animatable.View animation={'zoomIn'} style={[styles.btn_tienda]}>
    <Image
-            source={{uri: 'https://cdn-icons-png.flaticon.com/512/217/217853.png'}}
-            style={{height:20, width:20}}
+            source={{uri: 'https://cdn-icons-png.flaticon.com/512/609/609752.png'}}
+            style={{height:30, width:30}}
           />
-   <Text>{coin}</Text>
+   
    </Animatable.View>
 </TouchableOpacity>
-
-<BtnMenu showMenu={showMenu} setShowMenu={setShowMenu} style={{zIndex: 999 }} />
-
-</View>
 <View style={styles.cont_body}>
-      <TouchableOpacity onPress={() => navigation.navigate('Search')} >
-   <Animatable.View animation={'zoomIn'} style={[styles.btn_verdad]}>
-   <Text style={{fontWeight: '700', fontSize: 10}}> Nueva Partida</Text>
+      <TouchableOpacity onPress={() => navigation.navigate('SelectGame')} >
+   <Animatable.View animation={'zoomIn'} style={[styles.btn_init]}>
+   <Text style={{fontWeight: '700', fontSize:18 }}> Jugar</Text>
    </Animatable.View>
 </TouchableOpacity>
     
-      <TouchableOpacity onPress={() => onLogout()} >
-   <Animatable.View animation={'zoomIn'} style={[styles.btn_mito]}>
-   <Text style={{fontWeight: '700', fontSize: 10}}> Log Out</Text>
-   </Animatable.View>
-</TouchableOpacity>
-
-
-<TouchableOpacity onPress={() => navigation.dispatch(navigation.navigate('Profile'))} >
-   <Animatable.View animation={'zoomIn'} style={[styles.btn_mito]}>
-   <Image
-            source={{uri: 'https://cdn-icons-png.flaticon.com/512/217/217853.png'}}
-            style={{height:20, width:20}}
-          />
-   <Text>{coin}</Text>
-   </Animatable.View>
-</TouchableOpacity>
-<TouchableOpacity onPress={() => Alert.alert('soy el btn de opciones')} >
-   <Animatable.View animation={'zoomIn'} style={[styles.btn_option]}>
-   <Text style={{fontWeight: '700', fontSize: 18, color:'gray'}}> |||</Text>
-   </Animatable.View>
-</TouchableOpacity>
+<PartidasList />
 </View>
     </View>
     </TouchableWithoutFeedback>
@@ -115,9 +87,11 @@ const styles = StyleSheet.create({
     
   },
   cont_body: {
+    
+    width: '100%',
     height: '100%',
     alignItems: 'center',
-    justifyContent: 'space-around'
+    
     
   },
     sigiente: {
@@ -193,6 +167,16 @@ const styles = StyleSheet.create({
       alignItems: 'center',
       justifyContent: 'center'
       },
+      btn_init: {
+        backgroundColor: '#8c664f',
+      borderRadius: 10,
+      padding: 5,
+     
+      width: 150,
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'center'
+      },
       btn_mito: {
        
         backgroundColor: 'rgba(74, 74, 74, 0.58)',
@@ -201,6 +185,14 @@ const styles = StyleSheet.create({
       width: 100,
         borderWidth: 1,
       flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'center'
+      },
+      btn_tienda: {
+      borderRadius: 10,
+      width: 50,
+      height: 50,
+        borderWidth: 1,
       alignItems: 'center',
       justifyContent: 'center'
       },

@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "940133325126",
-    "project_id": "ready-3b98b",
-    "storage_bucket": "ready-3b98b.appspot.com"
+    "project_number": "429208448472",
+    "project_id": "verdadomito-b2216",
+    "storage_bucket": "verdadomito-b2216.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:940133325126:android:8e990dd178599b9abaad47",
+        "mobilesdk_app_id": "1:429208448472:android:0b08e32557f2b31ebb16ad",
         "android_client_info": {
           "package_name": "com.verdadomito"
         }
       },
       "oauth_client": [
         {
-          "client_id": "940133325126-ms4g3bo5nrl9r1k34hvptg221iqoca7c.apps.googleusercontent.com",
+          "client_id": "429208448472-mrigq0eurp9dr2hub7humpr3oil8mo3m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.verdadomito",
+            "certificate_hash": "e00d65a5348ade4cfb1fb903038c1dbc8acb6a7d"
+          }
+        },
+        {
+          "client_id": "429208448472-n532q9d2dluthm2od046mah29bbolv6d.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA0I8wSgjxW5hVteQVX1edOzekJjw-ghIo"
+          "current_key": "AIzaSyD8MXsPMrjkiXiDHuWB11PFVcmNmqh1Oaw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "940133325126-ms4g3bo5nrl9r1k34hvptg221iqoca7c.apps.googleusercontent.com",
+              "client_id": "429208448472-n532q9d2dluthm2od046mah29bbolv6d.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

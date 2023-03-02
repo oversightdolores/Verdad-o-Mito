@@ -16,6 +16,9 @@ const registerController = async(newUser) => {
               name: newUser.name,
               email: newUser.email,
               nickname: newUser.nickname,
+              given_name: newUser.given_name,
+              family_name: newUser.family_name,
+              locale: newUser.locale,
               picture: newUser.picture
             
          

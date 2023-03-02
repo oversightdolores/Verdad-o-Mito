@@ -6,22 +6,28 @@ import {useDispatch, useSelector} from 'react-redux';
 import {getQuestion} from '../redux/action';
 import ShakeButton from '../components/ShakeButton';
 import * as Animatable from 'react-native-animatable';
-import { AdsConsent, RewardedAd, RewardedAdEventType, TestIds  } from 'react-native-google-mobile-ads';
+//import { AdsConsent, RewardedAd, RewardedAdEventType, TestIds  } from 'react-native-google-mobile-ads';
 import {useNavigation} from '@react-navigation/native';
+import {Interstitial} from 'react-native-ad-manager';
+
+
+
+
 
 const adUnitId = 'ca-app-pub-1460570234418559/8882997469';
 
-
+/* 
 const rewarded = RewardedAd.createForAdRequest(adUnitId, {
     requestNonPersonalizedAdsOnly: true,
     keywords: ['fashion', 'clothing'],
   });
-
+ */
 
 //ca-app-pub-1460570234418559/4817466382
 
 const Game = () => {
   const navigation = useNavigation()
+  
     const dispatch = useDispatch()
     const question = useSelector(state => state.question)
     const [selectedQuestion, setSelectedQuestion] = useState();
@@ -35,10 +41,36 @@ const Game = () => {
         mito: false
     })
   const [showModal, setShowModal] = useState(false);
-  const [rewardedAd, setRewardedAd] = useState(null);
-  const [rewarded, setRewarded] = useState(false)
+
 
   useEffect(() => {
+      // Establecer el ID del anuncio intersticial que deseas mostrar
+      Interstitial.setAdUnitID('ca-app-pub-1460570234418559/8882997469');
+        
+      // Solicitar el anuncio intersticial
+       Interstitial.requestAd();
+      
+  }, [])
+
+  // Función para solicitar y mostrar el anuncio de recompensa
+
+  async function showRewardedAd() {
+    try {
+      
+    if (Interstitial.isReady) {
+      await Interstitial.showAd();
+      setShowModal(false)
+      nextQuestions()
+    } else {
+      console.warn('Ad is not ready.');
+    }
+    
+    } catch (error) {
+        console.warn(error);
+    }
+}
+
+  /* useEffect(() => {
     const ad = RewardedAd.createForAdRequest(adUnitId, {
       requestNonPersonalizedAdsOnly: true,
       keywords: ['gaming', 'clothing'],
@@ -68,8 +100,8 @@ const Game = () => {
       
     };
   }, []);
-
-  const handleShowAd = async () => {
+ */
+  /* const handleShowAd = async () => {
     try {
       // Comprobar si el anuncio recompensado está cargado
       if (rewarded) {
@@ -83,7 +115,7 @@ const Game = () => {
     }
   };
 
-  
+   */
     
     const correctSound = new Sound(require('../sounds/success.mp3'), Sound.MAIN_BUNDLE, (error) => {
         if (error) {
@@ -254,7 +286,7 @@ const Game = () => {
                 null
                 :
                 response === 'Incorrecto!' ?
-                <TouchableOpacity onPress={() => [navigation.navigate('Home'), handleShowAd()]} >
+                <TouchableOpacity onPress={() => [navigation.navigate('Home'), showRewardedAd()]} >
                 <Animatable.View animation={'zoomIn'} style={[styles.sigiente]}>
                 <Text style={{fontWeight: '700', fontSize: 15}}>continuar</Text>
                 </Animatable.View>
@@ -289,7 +321,7 @@ const Game = () => {
           <TouchableOpacity style={styles.btn_nopubli} onPress={() => [setResponse('Incorrecto!'), setShowModal(false)]}>
             <Text style={{color: '#000',}} >No</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.btn_publi} onPress={() => [handleShowAd(), nextQuestions(), setShowModal(false)]}>
+          <TouchableOpacity style={styles.btn_publi} onPress={() => [showRewardedAd()]}>
             <Text style={{color: '#000',}} >Ver</Text>
           </TouchableOpacity>
           </View>

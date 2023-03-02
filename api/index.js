@@ -18,22 +18,33 @@
 //     =====`-.____`.___ \_____/___.-`___.-'=====
 //                       `=---='
 //     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-const app = require('./src/app.js');
+const server = require('./src/app.js');
 const { conn } = require('./src/db.js');
 
-/* 
-const http = require('http');
+
+/* const http = require('http');
+const socketio = require('socket.io');
+
 const server = http.createServer(app);
-const io = require('socket.io')(server);
+const io = socketio(server);
 
-io.on('connection', (user) => {
-  console.log('A user connected', user);
-  // implementa aquí la lógica para manejar las conexiones de los usuarios
-}); */
+io.on('connection', (socket) => {
+  console.log('a user connected', socket.id);
+ 
 
-// Syncing all the models at once.
-conn.sync({ force: false}).then(() => {
-  app.listen(5174, () => {
-    console.log(`%s listening at 5174`); // eslint-disable-line no-console
-  });
 });
+global.io = io */
+const port = process.env.PORT || 5174;
+
+
+conn.sync({ force: false }).then(() => {
+  server.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
+  });
+ 
+  
+
+});
+
+
+module.exports = server;

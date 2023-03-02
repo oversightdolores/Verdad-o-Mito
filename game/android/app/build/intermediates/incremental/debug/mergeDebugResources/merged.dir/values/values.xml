@@ -1124,7 +1124,7 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="copy_toast_msg">Link copied to clipboard</string>
-    <string name="default_web_client_id" translatable="false">940133325126-ms4g3bo5nrl9r1k34hvptg221iqoca7c.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">429208448472-n532q9d2dluthm2od046mah29bbolv6d.apps.googleusercontent.com</string>
     <string name="error_drm_not_supported">Protected content not supported on API levels below 18</string>
     <string name="error_drm_unknown">An unknown DRM error occurred</string>
     <string name="error_drm_unsupported_scheme">This device does not support the required DRM scheme</string>
@@ -1193,11 +1193,11 @@
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="gcm_defaultSenderId" translatable="false">940133325126</string>
-    <string name="google_api_key" translatable="false">AIzaSyA0I8wSgjxW5hVteQVX1edOzekJjw-ghIo</string>
-    <string name="google_app_id" translatable="false">1:940133325126:android:8e990dd178599b9abaad47</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA0I8wSgjxW5hVteQVX1edOzekJjw-ghIo</string>
-    <string name="google_storage_bucket" translatable="false">ready-3b98b.appspot.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">429208448472</string>
+    <string name="google_api_key" translatable="false">AIzaSyD8MXsPMrjkiXiDHuWB11PFVcmNmqh1Oaw</string>
+    <string name="google_app_id" translatable="false">1:429208448472:android:0b08e32557f2b31ebb16ad</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD8MXsPMrjkiXiDHuWB11PFVcmNmqh1Oaw</string>
+    <string name="google_storage_bucket" translatable="false">verdadomito-b2216.appspot.com</string>
     <string name="header_description" translatable="false">Heading</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
@@ -1270,7 +1270,7 @@
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="progressbar_description" translatable="false">Progress Bar</string>
-    <string name="project_id" translatable="false">ready-3b98b</string>
+    <string name="project_id" translatable="false">verdadomito-b2216</string>
     <string name="radiogroup_description" translatable="false">Radio Group</string>
     <string name="rn_tab_description" translatable="false">Tab</string>
     <string name="s1">Save image</string>

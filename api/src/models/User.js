@@ -2,6 +2,7 @@ const { DataTypes } = require('sequelize');
 module.exports = (sequelize) => {
     // defino el modelo
     sequelize.define('user', {
+      
       user_id: {
         type: DataTypes.STRING,
         primaryKey: true,
@@ -19,11 +20,11 @@ module.exports = (sequelize) => {
       },
       given_name: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: true,
       },
       family_name: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: true,
       },
       email: {
         type: DataTypes.STRING,
@@ -32,7 +33,7 @@ module.exports = (sequelize) => {
       },
       locale: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: true,
       },
       picture: {
         type: DataTypes.STRING,

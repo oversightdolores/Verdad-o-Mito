@@ -4,7 +4,7 @@
             "outputFile": "com.verdadomito.app-mergeDebugResources-45:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/nicolas/.gradle/caches/transforms-3/1276e3297a489a3c70222886eb04d345/transformed/material-1.1.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "/home/nicolas/.gradle/caches/transforms-3/50d9827cfaa9370e0befd55a650c49cd/transformed/material-1.1.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/nicolas/.gradle/caches/transforms-3/3af14efacd96d9f6cc965317305dbd81/transformed/appcompat-1.4.1/res/values-night-v8/values-night-v8.xml",
+                    "source": "/home/nicolas/.gradle/caches/transforms-3/a4dd4bd836e3e2785b8558963909e274/transformed/appcompat-1.4.1/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

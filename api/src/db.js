@@ -8,12 +8,14 @@ const {
   PG_USER, PG_PASSWORD, PG_HOST, PG_PORT, PG_DATABASE, URL_DATABASE
 } = process.env;
 
-let sequelize =  new Sequelize(`${URL_DATABASE}`, {
+let sequelize = 
+process.env.NODE_ENV === "production"
+?  new Sequelize(`${URL_DATABASE}`, {
   logging: false, // set to console.log to see the raw SQL queries
   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
 })
-  /* process.env.NODE_ENV === "production"
-    ? new Sequelize({
+/* 
+    new Sequelize({
         database: PG_DATABASE,
         dialect: "postgres",
         host: PG_HOST,
@@ -35,11 +37,11 @@ let sequelize =  new Sequelize(`${URL_DATABASE}`, {
         },
         ssl: true,
       })
+      */
     : new Sequelize(
-        `postgresql://${PG_USER}:${PG_PASSWORD}@${PG_HOST}:${PG_PORT}/${PG_DATABASE}`,
+        `postgresql://${PG_USER}:${PG_PASSWORD}@${PG_HOST}:${PG_PORT}/postgres`,
         { logging: false, native: false }
       );
- */
 /* const sequelize = new Sequelize(`postgresql://${PG_USER}:${PG_PASSWORD}@${PG_HOST}:${PG_PORT}/${PG_DATABASE}`, {
   logging: false, // set to console.log to see the raw SQL queries
   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
@@ -68,13 +70,17 @@ sequelize.models = Object.fromEntries(capsEntries);
 
 // En sequelize.models están todos los modelos importados como propiedades
 // Para relacionarlos hacemos un destructuring
-const {Game, User} = sequelize.models;
+const {Game, User, GameUser} = sequelize.models;
 
 // Aca vendrian las relaciones
 
 
-User.belongsToMany(Game, { through: 'GameUser' });
-Game.belongsToMany(User, { through: 'GameUser' , forinkey: 'Game_id'});
+Game.belongsTo(User, { foreignKey: 'user_id' });
+
+
+User.hasMany(Game, { foreignKey: 'user_id' });
+
+
 
 sequelize.sync();
 

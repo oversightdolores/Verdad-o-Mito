@@ -4,17 +4,7 @@
             "outputFile": "com.verdadomito.app-mergeDebugResources-45:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/nicolas/.gradle/caches/transforms-3/3af14efacd96d9f6cc965317305dbd81/transformed/appcompat-1.4.1/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
-                    }
-                },
-                {
-                    "source": "/home/nicolas/.gradle/caches/transforms-3/1276e3297a489a3c70222886eb04d345/transformed/material-1.1.0/res/values-land/values-land.xml",
+                    "source": "/home/nicolas/.gradle/caches/transforms-3/50d9827cfaa9370e0befd55a650c49cd/transformed/material-1.1.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,24,30",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -30,6 +20,16 @@
                         "endLines": "5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,32,37",
                         "endColumns": "72,69,71,69,64,66,69,71,68,68,81,89,75,67,66,77,64,66,10,10,10",
                         "endOffsets": "332,402,474,544,609,676,746,818,887,956,1038,1128,1204,1272,1339,1417,1482,1549,1721,2116,2385"
+                    }
+                },
+                {
+                    "source": "/home/nicolas/.gradle/caches/transforms-3/a4dd4bd836e3e2785b8558963909e274/transformed/appcompat-1.4.1/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
                     }
                 }
             ]

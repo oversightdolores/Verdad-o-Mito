@@ -11,23 +11,12 @@ module.exports = (sequelize) => {
             type: DataTypes.STRING,
             allowNull: false,
           },
-          user_id: {
+          userId: {
             type: DataTypes.ARRAY(DataTypes.STRING),
             defaultValue: [],
             allowNull: true
-        },
-          status: {
-            type: DataTypes.ENUM('pending', 'in-progress', 'completed'),
-            allowNull: true,
           },
-          start_time: {
-            type: DataTypes.DATE,
-            allowNull: true,
-          },
-          end_time: {
-            type: DataTypes.DATE,
-            allowNull: true,
-          },
+       
     },
     {timestamps: false}
     );

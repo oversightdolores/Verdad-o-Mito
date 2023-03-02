@@ -4,7 +4,17 @@
             "outputFile": "com.verdadomito.app-mergeDebugResources-45:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/nicolas/.gradle/caches/transforms-3/3af14efacd96d9f6cc965317305dbd81/transformed/appcompat-1.4.1/res/values-v16/values-v16.xml",
+                    "source": "/home/nicolas/.gradle/caches/transforms-3/2aa06e210cdd7e42796232d47403e26b/transformed/core-1.7.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/home/nicolas/.gradle/caches/transforms-3/a4dd4bd836e3e2785b8558963909e274/transformed/appcompat-1.4.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "/home/nicolas/.gradle/caches/transforms-3/48c0254e85622aff08e26c4f5886e53e/transformed/core-1.7.0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

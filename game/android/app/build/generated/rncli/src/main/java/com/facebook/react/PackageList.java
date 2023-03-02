@@ -29,6 +29,8 @@ import com.reactnativegooglesignin.RNGoogleSigninPackage;
 import com.reactnativecommunity.picker.RNCPickerPackage;
 // lottie-react-native
 import com.airbnb.android.react.lottie.LottiePackage;
+// react-native-ad-manager
+import com.matejdr.admanager.RNAdManagerPackage;
 // react-native-agora
 import io.agora.rtc.ng.react.AgoraRtcNgPackage;
 // react-native-auth0
@@ -101,6 +103,7 @@ public class PackageList {
       new RNGoogleSigninPackage(),
       new RNCPickerPackage(),
       new LottiePackage(),
+      new RNAdManagerPackage(),
       new AgoraRtcNgPackage(),
       new A0Auth0Package(),
       new RNGestureHandlerPackage(),

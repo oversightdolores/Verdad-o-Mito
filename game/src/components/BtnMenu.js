@@ -3,11 +3,13 @@ import { TouchableOpacity, View, Text, Image, StyleSheet, TouchableWithoutFeedba
 import * as Animatable from 'react-native-animatable';
 import {useAuth0, } from 'react-native-auth0';
 import { useNavigation } from '@react-navigation/native';
-
+import { useDispatch, useSelector } from 'react-redux';
+import { logout } from '../redux/action';
+import profile from '../images/profile.png'
 
 const Menu = (props) => {
-  
-  const {authorize, clearSession, user, getCredentials, error} = useAuth0();
+  const dispatch = useDispatch()
+  const user = useSelector(state => state.user)
   const navigation = useNavigation()
   const {showMenu, setShowMenu} = props
 
@@ -33,9 +35,9 @@ console.log(showMenu)
         <Animatable.View animation="fadeIn" duration={600} style={{ width:150, position: 'absolute', top: 40, right: 10, zIndex:999, backgroundColor:'rgba(246, 246, 246, 0.80)', borderWidth:1, borderRadius:8}}>
           <Image 
             style={{height:50, width:50, borderRadius: 100, margin:5}}
-            source={{uri: user.picture}}
+            source={ user.photoURL ?{uri: user.photoURL} : profile }
           />
-          <Text style={{ color: '#000',padding:5  }}>{user.nickname}</Text>
+          <Text style={{ color: '#000',padding:5  }}>{user?.displayName}</Text>
           <TouchableOpacity onPress={() => navigation.navigate('Profile')} >
    <Animatable.View animation={'zoomIn'} style={[styles.btn_mito]}>
    
@@ -49,7 +51,13 @@ console.log(showMenu)
    </Animatable.View>
 </TouchableOpacity>
 
-          <Text style={{ color: '#000', padding: 10 }}>Menu Item 3</Text>
+<TouchableOpacity onPress={() => dispatch(logout())} >
+   <Animatable.View animation={'zoomIn'} style={[styles.btn_mito]}>
+   
+   <Text style={{color: '#000'}}>Logout</Text>
+   </Animatable.View>
+</TouchableOpacity>
+
         </Animatable.View>
         
    

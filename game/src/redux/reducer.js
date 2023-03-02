@@ -1,43 +1,41 @@
+import { createSlice } from '@reduxjs/toolkit';
 
-import {GET_QUESTION, GET_ERROR, GET_MESSAGE, GET_USER} from './constants'
-
-
-
-const initialState ={
-    question: [],
+const partidaSlice = createSlice({
+  name: 'partida',
+  initialState: {
     user: {},
-    message: {},
-    error: {}
+    users: [],
+    partidas: [],
+    errors: {},
+    question: {},
+    partidaSeleccionada: {},
+    turnoActual: 0,
+  },
+  reducers: {
+    setUser: (state,action) => {
+      state.user = action.payload;
+    },
+    setUsers: (state,action) => {
+      state.users = action.payload;
+    },
+    setPartidas: (state, action) => {
+      state.partidas = action.payload;
+    },
+    setPartidaSeleccionada: (state, action) => {
+      state.partidaSeleccionada = action.payload;
+    },
+    setTurnoActual: (state, action) => {
+      state.turnoActual = action.payload;
+    },
+    setErrors: (state, action) => {
+      state.errors = action.payload
+    },
+    setQuestion: (state, action) => {
+      state.question = action.payload
+    }
+  },
+});
 
-}
+export const { setPartidas, setPartidaSeleccionada, setTurnoActual, setUser, setUsers } = partidaSlice.actions;
 
-
-const questionReducer = (state = initialState, action) => {
-  switch (action.type) {
-    case GET_QUESTION:
-      return {
-        ...state,
-        question: action.payload,
-      };
-      case GET_ERROR:
-        return {
-            ...state,
-            error: action.payload
-        };
-        case GET_USER:
-        return {
-            ...state,
-            user: action.payload
-        };
-      case GET_MESSAGE:
-        return {
-            ...state,
-            message: action.payload
-        }
-    default:
-      return state;
-  }
-};
-
-
-export default questionReducer
+export default partidaSlice.reducer;
